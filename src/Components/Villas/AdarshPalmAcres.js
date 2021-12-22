@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "../Villas/slider/MainSlider";
 import {
   Container,
   Row,
@@ -22,11 +21,12 @@ import ImageIcon9 from '../../Assets/images/amenities/garden.png'
 import ImageIcon10 from '../../Assets/images/amenities/playground.png'
 import ImageIcon11 from '../../Assets/images/amenities/city-hall.png'
 import ImageIcon12 from '../../Assets/images/amenities/party-lawn.png'
+import AdarshSlider from "./slider/AdarshSlider";
 
 export default function AdarshPalmAcres() {
   return (
     <div>
-      <Slider />
+      <AdarshSlider />
       <div id="content" className="pt-2 pb-2 pt-md-5 pb-md-5">
         <Container>
           <Row className="justify-content-center">
