@@ -1,0 +1,88 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+  "primary":    #DB2928,
+  "secondary":  #009846,
+  "dark":       #131921,
+  "success":    #198754,
+  "info":       #0DCAF0,
+  "warning":    #a7c227,
+  "danger":     #DC3545,
+  "light":      #F8F9FA,
+);
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary-color: #DB2928;
+$secondary-color: #009846;
+$ternary-color: #a7c227;
+$black-color: #000000;
+$white-color: #ffffff;
+
+body {
+  background-image: url(./Assets/images/blue-bg.jpg);
+}
+
+#navbar {
+  .custom-nav-link, #collasible-nav-dropdown {
+    color: $black-color;
+    font-weight: 500;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  .dropdown-item {
+    color: $black-color;
+    &:hover {
+      color: $primary-color;
+      background-color: $white-color;
+      padding-left: 30px;
+      transition: padding-left all 0.5s;
+    }
+  }
+}
+
+#testimonials {
+  .carousel-control-prev, .carousel-control-next {
+    display: none;
+  }
+  .carousel-indicators {
+    margin-bottom: .5rem;
+    [data-bs-target] {
+      background-color: $primary-color;
+    }
+  } 
+  .custom {
+    position: absolute;
+    bottom: -10%;
+    left: 45%;
+  }
+  .custom-1 {
+    position: relative;
+  }
+}
+
+#about-banner {
+  background-image: url(../src/Assets/images/about-banner.png);
+  background-position: center;
+}
+
+#association-slider {
+  .owl-carousel {
+    .owl-item {
+      img {
+        display: initial;
+        width: initial;
+      }
+    }
+  }
+}
+
+#amenities {
+  .custom-height {
+    height: 100px;
+    padding-top: 1.5rem;
+  }
+} 

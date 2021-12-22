@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import TopMenubar from "./Components/PageIncludes/TopMenubar";
+import Footer from "./Components/PageIncludes/Footer";
+import AdarshPalmAcres from './Components/Villas/AdarshPalmAcres'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <TopMenubar />
+        <Switch>
+          <Route path="/" exact component={Home}></Route>
+          <Route path="/about-us" component={About}></Route>
+          <Route path="/contact-us" component={Contact}></Route>
+          <Route path="/adarsh-palm-acres" component={AdarshPalmAcres}></Route>
+          <Redirect to="/" />
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }
