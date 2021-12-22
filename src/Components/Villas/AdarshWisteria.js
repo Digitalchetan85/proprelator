@@ -9,34 +9,31 @@ import {
   Button,
 } from "react-bootstrap";
 import Image1 from "../../Assets/images/projects/adrash-palm-acres/slider/1.png";
-import AdarshSlider from "./slider/AdarshSlider";
+import AdarshWisteriaSlider from "./slider/AdarshWisteriaSlider";
 
-export default function AdarshPalmAcres() {
+
+export default function AdarshWisteria() {
   return (
     <div>
-      <AdarshSlider />
+      <AdarshWisteriaSlider />
       <div id="content" className="pt-2 pb-2 pt-md-5 pb-md-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
+                  <h2>About Adarsh Wisteria</h2>
                 <p>
-                  Adarsh Palm Acres is the close to possession residential Villa project launched in Huttanahalli, Bagalur, North Bangalore.
+                Adarsh Wisteria is a new premium residential Villa project in Chikkagubbi, just off Hennur Main Road, North Bangalore.
                 </p>
                 <p>
-                The massive residential enclave Adarsh Palm Acres is spread out across 3 phases and features the very best in Adarsh Developers’ luxury living segment. The project offers spacious 4 BHK Villas Palm Aqua and Palm Emerald with luxurious features.
+                The builder is guaranteed to bring a quality living experience to the community of Hennur Main Road with brilliant architecture and an equivalent lifestyle in Adarsh Wisteria.
                 </p>
                 <p>
-                Beautiful landscapes all around Adarsh Palm Acres as well as Zen gardens, Flower gardens, and lawns all over the project make it more special & Elite.
+                Adarsh Wisteria Location has excellent connectivity & it is located at the heart of Chikkagubbi just off Hennur Main Road which has now known as “New Airport Road” and is well known for being equidistant from Outer Ring Road, Manyata Tech Park, Old Madras Road, Bagalur, Thanisandra Road, and many other key locations in North Bangalore.
                 </p>
+                
                 <p>
-                The builder is guaranteed to bring a quality living experience to the community of Huttanahalli in Bagalur, North Bangalore with brilliant architecture and equivalent lifestyle in Palm Emerald, Palm Azure, and Palm Aqua at Adarsh Palm Acres. All the villas come equipped with a private garden, Vaastu compliance, and maximized ventilation.
-                </p>
-                <p>
-                Adarsh Palm Acres Location has excellent connectivity & it is located at the crux of Bagalur in Huttanahalli, Thanisandra, and BK Halli Road near existing and upcoming communities & facilities.
-                </p>
-                <p>
-                Amenities at Adarsh Palm Acres include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.
+                Some of the amenities at Adarsh Wisteria include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, amphitheater, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.
                 </p>
 
                 <a href="https://www.youtube.com/watch?v=atMp4ufSWw4">
@@ -45,13 +42,13 @@ export default function AdarshPalmAcres() {
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">Adarsh Palm Acres Configuration</h2>
+                  <h2 className="pb-2">Prestige White Meadows Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
                       <Card.Body>
                         <Card.Title>Project Location</Card.Title>
-                        <Card.Text>Bagalur,Huttanahalli</Card.Text>
+                        <Card.Text>Chikkagubbi, Off Hennur Road</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -60,7 +57,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Total Land Area</Card.Title>
-                        <Card.Text>19 Acres (Phase 2)</Card.Text>
+                        <Card.Text>3.2 Acres</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -69,7 +66,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>No. of Units</Card.Title>
-                        <Card.Text>112 Units</Card.Text>
+                        <Card.Text>24 Units (Phase 1)</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -78,7 +75,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Towers and Blocks</Card.Title>
-                        <Card.Text>Triplex Villas G + 2 Floors</Card.Text>
+                        <Card.Text>4 Blocks</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -87,7 +84,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Unit Variants</Card.Title>
-                        <Card.Text>4 BHK Villas</Card.Text>
+                        <Card.Text>3,4 BHK Villas</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -96,7 +93,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Possession Time </Card.Title>
-                        <Card.Text>Sept 2021 Onwards</Card.Text>
+                        <Card.Text>Sept 2022 Onwards</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -109,15 +106,15 @@ export default function AdarshPalmAcres() {
                 >
                   <thead className="bg-primary text-white">
                     <tr>
-                      <th>Villa Type</th>
+                      <th>Unit Type</th>
                       <th>Villa Size in Sq.Ft</th>
-                      <th>Price Sheet</th>
+                      
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>4 BHK Palm Emerald</td>
-                      <td>3712 - 3752</td>
+                      <td>3 BHK Villa</td>
+                      <td>2750</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -125,50 +122,34 @@ export default function AdarshPalmAcres() {
                       </td>
                     </tr>
                     <tr>
-                      <td>4 BHK Palm Aqua</td>
-                      <td>3473 - 3478</td>
+                      <td>4 BHK Villa</td>
+                      <td>2775 to 3636</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
                         </Button>
                       </td>
                     </tr>
-                    <tr>
-                      <td>4 BHK Palm Azure</td>
-                      <td>3119</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
+                   
                   </tbody>
                 </Table>
-              </div>
-              <div className="pb-2 pb-md-5" id="amenities">
+              </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">Adarsh Palm Acres Configuration</h2>
+                  <h2 className="pb-2">Adarsh Wisteria Amenities and Highlightsn</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
-                        <li>Gymnasium</li>
-                        <li>Clubhouse</li>
-                        <li>Swimming Pool</li>
-                        <li>Games Room</li>
-                        <li>Restaurant</li>
-                        <li>Jogging Tack</li>
+                        <li>Victorian Style Designs</li>
+                        <li>Landscaped spaces</li>
+                        <li>Minimum Common Walls</li>
                       </ul>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="">
                       <ul>
-                        <li>Sports Courts</li>
-                        <li>Health Club & Spa</li>
-                        <li>Landscaped Gardens</li>
-                        <li>Kids Play Area</li>
-                        <li>Library</li>
-                        <li>JAmphitheatre & Party Areas</li>
+                        <li>High Ceilings,Spacious Interiors</li>
+                        <li>Abundant Natural Ventilation</li>
                       </ul>
                     </div>
                   </Col>

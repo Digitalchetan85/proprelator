@@ -9,35 +9,35 @@ import {
   Button,
 } from "react-bootstrap";
 import Image1 from "../../Assets/images/projects/adrash-palm-acres/slider/1.png";
-import AdarshSlider from "./slider/AdarshSlider";
+import AdarshTranqvilleSlider from "./slider/AdarshTranqvilleSlider";
 
-export default function AdarshPalmAcres() {
+
+export default function AdarshTranqville() {
   return (
     <div>
-      <AdarshSlider />
+      <AdarshTranqvilleSlider />
       <div id="content" className="pt-2 pb-2 pt-md-5 pb-md-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <p>
-                  Adarsh Palm Acres is the close to possession residential Villa project launched in Huttanahalli, Bagalur, North Bangalore.
+                Adarsh Tranqville is a new luxury residential Villa project in Chikkagubbi, just off Hennur Main Road, North Bangalore.
+                </p>
+                <p>The massive residential enclave, Adarsh Tranqville features the very best in Adarsh Developers’ premium segment. The project offers spacious 3,4 BHK sophisticated Villas with private terraces, vast spaces, high ceilings, luxurious features, and facilities.</p>
+                <p>
+                Beautiful landscapes all around Adarsh Tranqville with plenty of open spaces, Vaastu compliant homes, and an exclusive community make it more special & Elite.
                 </p>
                 <p>
-                The massive residential enclave Adarsh Palm Acres is spread out across 3 phases and features the very best in Adarsh Developers’ luxury living segment. The project offers spacious 4 BHK Villas Palm Aqua and Palm Emerald with luxurious features.
+                The builder is guaranteed to bring a quality living experience to the community of Chikkagubbi just off Hennur Main Road with brilliant architecture and an equivalent lifestyle in Adarsh Tranqville.
                 </p>
                 <p>
-                Beautiful landscapes all around Adarsh Palm Acres as well as Zen gardens, Flower gardens, and lawns all over the project make it more special & Elite.
+                Adarsh Tranqville Location has excellent connectivity & it is located at the heart of Chikkagubbi just off Hennur Main Road which has now known as “New Airport Road” and is well known for being equidistant from Outer Ring Road, Manyata Tech Park, Old Madras Road, Bagalur, Thanisandra Road, and many other key locations in North Bangalore.
                 </p>
                 <p>
-                The builder is guaranteed to bring a quality living experience to the community of Huttanahalli in Bagalur, North Bangalore with brilliant architecture and equivalent lifestyle in Palm Emerald, Palm Azure, and Palm Aqua at Adarsh Palm Acres. All the villas come equipped with a private garden, Vaastu compliance, and maximized ventilation.
+                Some of the amenities at Adarsh Tranqville include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, amphitheater, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.
                 </p>
-                <p>
-                Adarsh Palm Acres Location has excellent connectivity & it is located at the crux of Bagalur in Huttanahalli, Thanisandra, and BK Halli Road near existing and upcoming communities & facilities.
-                </p>
-                <p>
-                Amenities at Adarsh Palm Acres include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.
-                </p>
+                
 
                 <a href="https://www.youtube.com/watch?v=atMp4ufSWw4">
                   <Image src={Image1} alt="YouTube" className="img-fluid" />
@@ -45,13 +45,13 @@ export default function AdarshPalmAcres() {
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">Adarsh Palm Acres Configuration</h2>
+                  <h2 className="pb-2">Prestige White Meadows Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
                       <Card.Body>
                         <Card.Title>Project Location</Card.Title>
-                        <Card.Text>Bagalur,Huttanahalli</Card.Text>
+                        <Card.Text>Chikkagubbi, Bangalore</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -60,7 +60,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Total Land Area</Card.Title>
-                        <Card.Text>19 Acres (Phase 2)</Card.Text>
+                        <Card.Text>14 Acres</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -69,7 +69,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>No. of Units</Card.Title>
-                        <Card.Text>112 Units</Card.Text>
+                        <Card.Text>106 Units</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -78,7 +78,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Towers and Blocks</Card.Title>
-                        <Card.Text>Triplex Villas G + 2 Floors</Card.Text>
+                        <Card.Text>7 Blocks</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -87,7 +87,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Unit Variants</Card.Title>
-                        <Card.Text>4 BHK Villas</Card.Text>
+                        <Card.Text>Triplex 4 BHK Bungalows 4 BHK Sky Villas</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -96,7 +96,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Possession Time </Card.Title>
-                        <Card.Text>Sept 2021 Onwards</Card.Text>
+                        <Card.Text>Ready to Move-In</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -109,15 +109,15 @@ export default function AdarshPalmAcres() {
                 >
                   <thead className="bg-primary text-white">
                     <tr>
-                      <th>Villa Type</th>
+                      <th>Unit Type</th>
                       <th>Villa Size in Sq.Ft</th>
-                      <th>Price Sheet</th>
+                      
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>4 BHK Palm Emerald</td>
-                      <td>3712 - 3752</td>
+                      <td>3 BHK Semi Detached Villa</td>
+                      <td>2600</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -125,27 +125,18 @@ export default function AdarshPalmAcres() {
                       </td>
                     </tr>
                     <tr>
-                      <td>4 BHK Palm Aqua</td>
-                      <td>3473 - 3478</td>
+                      <td>4 BHK Villa</td>
+                      <td>3445</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
                         </Button>
                       </td>
                     </tr>
-                    <tr>
-                      <td>4 BHK Palm Azure</td>
-                      <td>3119</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
+                   
                   </tbody>
                 </Table>
-              </div>
-              <div className="pb-2 pb-md-5" id="amenities">
+              </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
                   <h2 className="pb-2">Adarsh Palm Acres Configuration</h2>
                   <Col md={6}>
@@ -155,7 +146,7 @@ export default function AdarshPalmAcres() {
                         <li>Clubhouse</li>
                         <li>Swimming Pool</li>
                         <li>Games Room</li>
-                        <li>Restaurant</li>
+                        <li>Yoga, Activity</li>
                         <li>Jogging Tack</li>
                       </ul>
                     </div>
@@ -164,11 +155,11 @@ export default function AdarshPalmAcres() {
                     <div className="">
                       <ul>
                         <li>Sports Courts</li>
-                        <li>Health Club & Spa</li>
+                        <li>Outdoor Theatre</li>
                         <li>Landscaped Gardens</li>
                         <li>Kids Play Area</li>
-                        <li>Library</li>
-                        <li>JAmphitheatre & Party Areas</li>
+                        <li>Health Club& Spa</li>
+                        <li>Party Areas</li>
                       </ul>
                     </div>
                   </Col>

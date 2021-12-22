@@ -9,35 +9,35 @@ import {
   Button,
 } from "react-bootstrap";
 import Image1 from "../../Assets/images/projects/adrash-palm-acres/slider/1.png";
-import AdarshSlider from "./slider/AdarshSlider";
+import PrimeBeverlySlider from "./slider/PrimeBeverlySlider";
 
-export default function AdarshPalmAcres() {
+
+export default function PrimeBeverly() {
   return (
     <div>
-      <AdarshSlider />
+      <PrimeBeverlySlider />
       <div id="content" className="pt-2 pb-2 pt-md-5 pb-md-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <p>
-                  Adarsh Palm Acres is the close to possession residential Villa project launched in Huttanahalli, Bagalur, North Bangalore.
+                Prime Beverly Woods is the newest luxury residential villas project in the rapidly expanding neighborhood of Sarjapur Road, Bangalore.
+                </p>
+                <p>The residential enclave, Prime Beverly Woods features the very best in Prime One Corp’s luxury American-style villas segment. The project offers spacious 3,4 BHK villas with Private terraces and luxurious features.</p>
+                <p>
+                Beautiful landscapes all around Prime Beverly Woods and vast open spaces make it more special & Elite.
                 </p>
                 <p>
-                The massive residential enclave Adarsh Palm Acres is spread out across 3 phases and features the very best in Adarsh Developers’ luxury living segment. The project offers spacious 4 BHK Villas Palm Aqua and Palm Emerald with luxurious features.
+                The builder is guaranteed to bring a quality living experience to the community of Sarjapur off Chikka Tirupati, Sarjapur Road, Bangalore with brilliant architecture and an equivalent lifestyle in Prime Beverly Woods.
                 </p>
                 <p>
-                Beautiful landscapes all around Adarsh Palm Acres as well as Zen gardens, Flower gardens, and lawns all over the project make it more special & Elite.
+                Prime Beverly Woods Location has excellent connectivity & it is located at the crux of Sarjapura near the renowned religious site Chikka Tirupati, Sarjapur Road, and Dommasandra junctions near existing and upcoming communities & facilities.
                 </p>
                 <p>
-                The builder is guaranteed to bring a quality living experience to the community of Huttanahalli in Bagalur, North Bangalore with brilliant architecture and equivalent lifestyle in Palm Emerald, Palm Azure, and Palm Aqua at Adarsh Palm Acres. All the villas come equipped with a private garden, Vaastu compliance, and maximized ventilation.
+                Amenities at Prime Beverly Woods include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.
                 </p>
-                <p>
-                Adarsh Palm Acres Location has excellent connectivity & it is located at the crux of Bagalur in Huttanahalli, Thanisandra, and BK Halli Road near existing and upcoming communities & facilities.
-                </p>
-                <p>
-                Amenities at Adarsh Palm Acres include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.
-                </p>
+                
 
                 <a href="https://www.youtube.com/watch?v=atMp4ufSWw4">
                   <Image src={Image1} alt="YouTube" className="img-fluid" />
@@ -45,13 +45,13 @@ export default function AdarshPalmAcres() {
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">Adarsh Palm Acres Configuration</h2>
+                  <h2 className="pb-2">Prime Beverly Woods Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
                       <Card.Body>
                         <Card.Title>Project Location</Card.Title>
-                        <Card.Text>Bagalur,Huttanahalli</Card.Text>
+                        <Card.Text>Off Sarjapur Road, Chikka Tirupati</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -60,7 +60,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Total Land Area</Card.Title>
-                        <Card.Text>19 Acres (Phase 2)</Card.Text>
+                        <Card.Text>10.6 Acres</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -69,7 +69,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>No. of Units</Card.Title>
-                        <Card.Text>112 Units</Card.Text>
+                        <Card.Text>119 Units</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -78,7 +78,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Towers and Blocks</Card.Title>
-                        <Card.Text>Triplex Villas G + 2 Floors</Card.Text>
+                        <Card.Text>N.A.</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -87,7 +87,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Unit Variants</Card.Title>
-                        <Card.Text>4 BHK Villas</Card.Text>
+                        <Card.Text>3,4 BHK Villas</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -96,7 +96,7 @@ export default function AdarshPalmAcres() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Possession Time </Card.Title>
-                        <Card.Text>Sept 2021 Onwards</Card.Text>
+                        <Card.Text>Oct 2023 Onwards (15 Months from Agreement)</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -109,43 +109,25 @@ export default function AdarshPalmAcres() {
                 >
                   <thead className="bg-primary text-white">
                     <tr>
-                      <th>Villa Type</th>
+                      <th>Unit Type</th>
                       <th>Villa Size in Sq.Ft</th>
-                      <th>Price Sheet</th>
+                      
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>4 BHK Palm Emerald</td>
-                      <td>3712 - 3752</td>
+                      <td>Villas</td>
+                      <td>1625 to 2020</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
                         </Button>
                       </td>
                     </tr>
-                    <tr>
-                      <td>4 BHK Palm Aqua</td>
-                      <td>3473 - 3478</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>4 BHK Palm Azure</td>
-                      <td>3119</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
+                    
                   </tbody>
                 </Table>
-              </div>
-              <div className="pb-2 pb-md-5" id="amenities">
+              </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
                   <h2 className="pb-2">Adarsh Palm Acres Configuration</h2>
                   <Col md={6}>
@@ -155,7 +137,7 @@ export default function AdarshPalmAcres() {
                         <li>Clubhouse</li>
                         <li>Swimming Pool</li>
                         <li>Games Room</li>
-                        <li>Restaurant</li>
+                        <li>Amphitheatre</li>
                         <li>Jogging Tack</li>
                       </ul>
                     </div>
@@ -164,11 +146,11 @@ export default function AdarshPalmAcres() {
                     <div className="">
                       <ul>
                         <li>Sports Courts</li>
-                        <li>Health Club & Spa</li>
+                        <li>Yoga, Activity Area</li>
                         <li>Landscaped Gardens</li>
                         <li>Kids Play Area</li>
-                        <li>Library</li>
-                        <li>JAmphitheatre & Party Areas</li>
+                        <li>Steam & Sauna</li>
+                        <li>Party Area</li>
                       </ul>
                     </div>
                   </Col>
@@ -300,9 +282,9 @@ export default function AdarshPalmAcres() {
               <div className="pb-2 pb-md-5">
                   <Row>
                       <Col md={12}>
-                          <h2 className="pb-2">About the Builder – Adarsh Developers</h2>
-                          <p>Since its inception in 1988, under the visionary leadership of Founder Mr. BM Jayeshankar, Adarsh Group has experienced phenomenal growth. Started as a humble endeavor, today Adarsh Developers is one of the leading real estate companies in Bengaluru.</p>
-                          <p>Coming to be known now as the innovative creator of a luxurious lifestyle, the group constructed its first residential property in 1996 and after that, there was no looking back. Defining the future of architectural excellence, Adarsh offers an eco-friendly, secure and self-sufficient lifestyle through their numerous Residential and commercial endeavors. Today, Adarsh Developers is a name synonymous with quality.</p>
+                          <h2 className="pb-2">About the Builder – Prime One Corp</h2>
+                          <p>Prime One Corp is the developmental wing of SmartOwner, India’s largest property marketplace. We are a team of internationally experienced architects, project managers, and builders with decades of experience delivering cutting-edge projects in a timely and inspiring manner in the U.S., Dubai, and Doha. We bring to India truly world-class projects that are designed and constructed to international standards.</p>
+                          <p>Prime One Corp has a world-class team of internationally experienced architects, engineers, and designers. Our team has decades of experience delivering cutting-edge projects in a timely and inspiring manner in the U.S., Dubai, and Doha. Our team boasts a track record that spans various asset classes, with projects ranging from exclusive, ultra-luxury homes to five-star hotels.</p>
                       </Col>
                   </Row>
               </div>
