@@ -42,7 +42,7 @@ export default function AdarshWisteria() {
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">Prestige White Meadows Configuration</h2>
+                  <h2 className="pb-2">Adarsh Wisteria Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
@@ -135,7 +135,7 @@ export default function AdarshWisteria() {
                 </Table>
               </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">Adarsh Wisteria Amenities and Highlightsn</h2>
+                  <h2 className="pb-2">Adarsh Wisteria Amenities and Highlights</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
@@ -277,6 +277,35 @@ export default function AdarshWisteria() {
                     </Card>
                   </Col>
                 </Row> */}
+              </div>
+              <div className="pb-2 pb-md-5">
+                  <h3>Adarsh Tranqville Villas Price</h3>
+                <Table
+                  responsive="sm"
+                  className="table-bordered align-middle text-center"
+                >
+                  <thead className="bg-primary text-white">
+                    <tr>
+                      <th>Unit Type</th>
+                      <th>Villa Size in Sq.Ft</th>
+                      <th>Approx. All Inclusive Price Range</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>4 BHK Villa</td>
+                      <td>2775 to 5536</td>
+                      <td>Rs. 3 Crore to Rs. 4 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                   
+                  </tbody>
+                </Table>
               </div>
               <div className="pb-2 pb-md-5">
                   <Row>

@@ -21,6 +21,7 @@ export default function PrestigeWhiteMedows() {
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
+                <h2>About Prestige White Meadows</h2>
                 <p>
                   Prestige White Meadows is the landmark Ready to Move-in
                   residential Apartment and Villas project by Prestige
@@ -161,7 +162,7 @@ export default function PrestigeWhiteMedows() {
                 </Table>
               </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">Adarsh Palm Acres Configuration</h2>
+                  <h2 className="pb-2">Prestige White Medows Configuration</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
@@ -310,6 +311,55 @@ export default function PrestigeWhiteMedows() {
                     </Card>
                   </Col>
                 </Row> */}
+              </div>
+              <div className="pb-2 pb-md-5">
+                  <h3>Prestige White Meadows Price</h3>
+                <Table
+                  responsive="sm"
+                  className="table-bordered align-middle text-center"
+                >
+                  <thead className="bg-primary text-white">
+                    <tr>
+                      <th>Unit Type</th>
+                      <th>Villa Size in Sq.Ft</th>
+                      <th>Approx. All Inclusive Price</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Sky Villas (Apartments)</td>
+                      <td>4111</td>
+                      <td>Rs. 4.10 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Sky Villas (Apartments)</td>
+                      <td>6651</td>
+                      <td>Rs. 6.82 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Independent Bungalows</td>
+                      <td>6219</td>
+                      <td>Rs. 8.48 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                   
+                  </tbody>
+                </Table>
               </div>
               <div className="pb-2 pb-md-5">
                   <Row>

@@ -18,6 +18,14 @@ import NVTSymphony from './Components/Villas/NVTSymphony';
 import PrimeBeverly from './Components/Villas/PrimeBeverly';
 import PrestigeCity from './Components/Villas/PrestigeCity';
 import CasaGrand from './Components/Villas/CasaGrand';
+import QueenSquare from './Components/Villas/QueenSquare';
+import RadianceBlossom from './Components/Villas/RadianceBlossom';
+import AdarshSanctuary from './Components/Villas/AdarshSanctuary';
+import ConcordeAbode from './Components/Villas/ConcordeAbode';
+import RafflesPark from "./Components/Villas/RafflesPark";
+import AssetzEarth from './Components/Villas/AssetzEarth';
+import AssetzLeaves from './Components/Villas/Assetzleaves';
+import TotalEnvironment from './Components/Villas/TotalEnvironment';
 
 function App() {
   return (
@@ -36,6 +44,14 @@ function App() {
           <Route path="/prime-beverly" component={PrimeBeverly}></Route>
           <Route path="/prestige-city" component={PrestigeCity}></Route>
           <Route path="/casa-grand" component={CasaGrand}></Route>
+          <Route path="/queen-square" component={QueenSquare}></Route>
+          <Route path="/radiance-blossom" component={RadianceBlossom}></Route>
+          <Route path="/adarsh-sanctuary" component={AdarshSanctuary}></Route>
+          <Route path="/concorde-abode" component={ConcordeAbode}></Route>
+          <Route path="/raffles-park" component={RafflesPark}></Route>
+          <Route path="/assetz-earth" component={AssetzEarth}></Route>
+          <Route path="/assetz-leaves" component={AssetzLeaves}></Route>
+          <Route path="/total-environment" component={TotalEnvironment}></Route>
           <Redirect to="/" />
         </Switch>
         <Footer />

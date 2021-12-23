@@ -21,6 +21,7 @@ export default function NVTSymphony() {
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
+                <h3>About NVT Symphony of Orchards</h3>
                 <p>
                 NVT Symphony of Orchards is a brand new luxury residential Villa project in the sought-after neighborhood of Sarjapur Road, Bangalore.
                 </p>
@@ -315,6 +316,75 @@ export default function NVTSymphony() {
                     </Card>
                   </Col>
                 </Row> */}
+              </div>
+              <div className="pb-2 pb-md-5">
+                  <h3>NVT Symphony of Orchards Villas Price</h3>
+                <Table
+                  responsive="sm"
+                  className="table-bordered align-middle text-center"
+                >
+                  <thead className="bg-primary text-white">
+                    <tr>
+                      <th>Unit Type</th>
+                      <th>Villa Size in Sq.Ft</th>
+                      <th>Approx. All Inclusive Price</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>ORANGE</td>
+                      <td>2931 to 3047</td>
+                      <td>Rs. 2.19 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>PEACH</td>
+                      <td>3161</td>
+                      <td>Rs. 2.23 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>NECTARINE</td>
+                      <td>3481 to 3519</td>
+                      <td>Rs. 2.56 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>MANGO</td>
+                      <td>3686 to 3708</td>
+                      <td>Rs. 2.82 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>LEMON</td>
+                      <td>4068 to 4096</td>
+                      <td>Rs. 3.15 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                   
+                  </tbody>
+                </Table>
               </div>
               <div className="pb-2 pb-md-5">
                   <Row>

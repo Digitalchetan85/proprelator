@@ -9,36 +9,26 @@ import {
   Button,
 } from "react-bootstrap";
 import Image1 from "../../Assets/images/projects/adrash-palm-acres/slider/1.png";
-import CasaGrandSlider from "./slider/CasaGrandSlider";
+import QueenSquareSlider from "./slider/QueenSquareSlider";
 
 
-export default function CasaGrand() {
+export default function QueenSquare() {
   return (
     <div>
-      <CasaGrandSlider />
+      <QueenSquareSlider />
       <div id="content" className="pt-2 pb-2 pt-md-5 pb-md-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
-                  <h2>About CasaGrand Florella Villas</h2>
+                <h2>About 42 Queens Square Villas</h2>
+                <p>42 Queens Square is an under-construction residential Villa project by 42 Estates in the rapidly expanding neighborhood of Sarjapur Road, Bangalore.</p>
+                <p>The residential enclave, 42 Queens Square features the very best in 42 Estates’ luxury living segment. The project offers spacious 3,4,5 BHK Villas with luxurious features and equivalent amenities.</p>
+                <p>Beautiful landscapes all around 42 Queens Square with organic farms, fruit gardens, and over1.5 acres of park-area make it more special & Elite.</p>
                 <p>
-                CasaGrand Florella is the new residential Villa project by CasaGrand Builders in the rapidly expanding neighborhood of Sarjapur Road, Bangalore.
-                </p>
-                <p>The residential enclave, CasaGrand Florella features the very best in CasaGrand Builders’ luxury living segment. The project offers just 36 units of spacious 3,4 BHK Bali-style Smart Villas with luxurious features and equivalent amenities.</p>
-                <p>
-                Beautiful landscapes all around CasaGrand Florella with 65% open spaces in the project and over 40% open spaces and private landscaped gardens in each villa make it more special & Elite.
-                </p>
-                <p>
-                The builder is guaranteed to bring a quality living experience and 100% Vaastu compliant smart villas to the community of Sarjapur-Attibele Road with brilliant Balinese architecture and an equivalent lifestyle in CasaGrand Florella.
-                </p>
-                <p>
-                CasaGrand Florella Location has excellent connectivity & it is located just off Sarjapur – Attibele Road near Sarjapura with the massive upcoming Azim Premji University & Infosys SEZ campuses coming up right next to the project.
-                </p>
-                <p>
-                Some of the 40+ Amenities at CasaGrand Florella include a fully equipped clubhouse, landscaped gardens, conference hall, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.
-                </p>
-                
+                The builder is guaranteed to bring a quality living experience to the community of Sarjapur Road with brilliant architecture and an equivalent lifestyle in 42 Queens Square.</p>
+                <p>42 Queens Square Location has excellent connectivity & it is located at the heart of Sarjapur – Attibele Road with the massive upcoming Azim Premji University & Infosys SEZ campuses coming up right next to the project.</p>
+                <p>Amenities at 42 Queens Square include a fully equipped clubhouse, landscaped gardens, conference hall, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.</p>                 
 
                 <a href="https://www.youtube.com/watch?v=atMp4ufSWw4">
                   <Image src={Image1} alt="YouTube" className="img-fluid" />
@@ -46,13 +36,13 @@ export default function CasaGrand() {
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">CasaGrand Florella Configuration</h2>
+                  <h2 className="pb-2">42 Queens Square Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
                       <Card.Body>
                         <Card.Title>Project Location</Card.Title>
-                        <Card.Text>Sarjapur-Attibele Road, Sarjapur</Card.Text>
+                        <Card.Text>Sarjapur - Attibele Road</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -61,7 +51,7 @@ export default function CasaGrand() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Total Land Area</Card.Title>
-                        <Card.Text>1.73 Acres</Card.Text>
+                        <Card.Text>6 Acres</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -70,7 +60,7 @@ export default function CasaGrand() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>No. of Units</Card.Title>
-                        <Card.Text>36 Units</Card.Text>
+                        <Card.Text>81 Units</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -79,16 +69,16 @@ export default function CasaGrand() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Towers and Blocks</Card.Title>
-                        <Card.Text>N.A.</Card.Text>
+                        <Card.Text>6 Rows</Card.Text>
                       </Card.Body>
                     </Card>
-                  </Col>
+                  </Col>                 
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Unit Variants</Card.Title>
-                        <Card.Text>3,4 BHK</Card.Text>
+                        <Card.Text>3,4,5 BHK Villas </Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -97,7 +87,7 @@ export default function CasaGrand() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Possession Time </Card.Title>
-                        <Card.Text>Mar 2022 Onwards</Card.Text>
+                        <Card.Text>Plots: Aug 2022 OnwardsDec 2021 Onwards</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -111,14 +101,14 @@ export default function CasaGrand() {
                   <thead className="bg-primary text-white">
                     <tr>
                       <th>Unit Type</th>
-                      <th>Villa Size in Sq.Ft</th>
+                      <th>Land Size in Sq.Ft</th>
                       
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>3 BHK Villa</td>
-                      <td>1630 to 1680</td>
+                      <td>3 BHK Villa (Bristol, Sheffield)</td>
+                      <td>1200</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -126,8 +116,17 @@ export default function CasaGrand() {
                       </td>
                     </tr>
                     <tr>
-                      <td>4 BHK Villa</td>
-                      <td>1891 to 1979</td>
+                      <td>4 BHK Villa (Windsor, Nottingham)</td>
+                      <td>1500</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5 BHK Villa (Windsor, Nottingham)</td>
+                      <td>1500</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -140,16 +139,16 @@ export default function CasaGrand() {
               </div>
               <div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">CasaGrand Florella Amenitiesn</h2>
+                  <h2 className="pb-2">42 Queens Square Amenities</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
                         <li>Clubhouse</li>
-                        <li>Rooftop Swimming Pool</li>
-                        <li>Gymnasium</li>
+                        <li>Swimming Pool</li>
+                        <li>Conference Hall</li>
                         <li>Games Room</li>
                         <li>Kids Play Area</li>
-                        <li>Jogging Tack</li>
+                        <li>Jogging Track</li>
                       </ul>
                     </div>
                   </Col>
@@ -157,11 +156,10 @@ export default function CasaGrand() {
                     <div className="">
                       <ul>
                         <li>Outdoor Courts</li>
-                        <li>Amphitheatre with Stage</li>
-                        <li>Balinese Gardens</li>
+                        <li>Amphitheatre</li>
+                        <li>1.5 Acre Landscaped Park</li>
                         <li>Party Area</li>
-                        <li>Health & Fitness Center</li>
-                        <li>BBQ Corner & Leisure Lawn</li>
+                        <li>Organic Farm</li>
                       </ul>
                     </div>
                   </Col>
@@ -290,8 +288,9 @@ export default function CasaGrand() {
                   </Col>
                 </Row> */}
               </div>
+              {/* Table 1 Starts */}
               <div className="pb-2 pb-md-5">
-                  <h3>CasaGrand Florella Price</h3>
+                  <h3>42 Queens Square Price</h3>
                 <Table
                   responsive="sm"
                   className="table-bordered align-middle text-center"
@@ -299,7 +298,7 @@ export default function CasaGrand() {
                   <thead className="bg-primary text-white">
                     <tr>
                       <th>Unit Type</th>
-                      <th>Villa Size in Sq.Ft</th>
+                      <th>Size in Sq.Ft</th>
                       <th>Approx. All Inclusive Price</th>
                       
                     </tr>
@@ -307,8 +306,8 @@ export default function CasaGrand() {
                   <tbody>
                     <tr>
                       <td>3 BHK Villa</td>
-                      <td>1680</td>
-                      <td>Rs. 96.5 Lacs Onwards</td>
+                      <td>1796</td>
+                      <td>Rs. 1.34 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -317,8 +316,8 @@ export default function CasaGrand() {
                     </tr>
                     <tr>
                       <td>3 BHK Villa</td>
-                      <td>1655</td>
-                      <td>Rs. 1.02 Crore Onwards</td>
+                      <td>1840</td>
+                      <td>Rs. 1.37 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -327,8 +326,8 @@ export default function CasaGrand() {
                     </tr>
                     <tr>
                       <td>3 BHK Villa</td>
-                      <td>1630</td>
-                      <td>Rs. 1.06 Crore Onwards</td>
+                      <td>2043</td>
+                      <td>Rs. 1.51 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -337,8 +336,8 @@ export default function CasaGrand() {
                     </tr>
                     <tr>
                       <td>4 BHK Villa</td>
-                      <td>1979</td>
-                      <td>Rs. 1.12 Crore Onwards</td>
+                      <td>2034</td>
+                      <td>Rs. 1.50 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -347,8 +346,48 @@ export default function CasaGrand() {
                     </tr>
                     <tr>
                       <td>4 BHK Villa</td>
-                      <td>1891</td>
-                      <td>Rs. 1.16 Crore Onwards</td>
+                      <td>2415</td>
+                      <td>Rs. 1.77 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4 BHK Villa</td>
+                      <td>2681</td>
+                      <td>Rs. 1.96 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4 BHK Villa</td>
+                      <td>2752</td>
+                      <td>Rs. 2.01 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5 BHK Villa</td>
+                      <td>3183</td>
+                      <td>Rs. 2.31 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5 BHK Villa</td>
+                      <td>3264</td>
+                      <td>Rs. 2.37 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -359,13 +398,17 @@ export default function CasaGrand() {
                   </tbody>
                 </Table>
               </div>
+              {/*Table1 ends  */}
+              
+              {/* Table Ends */}
               <div className="pb-2 pb-md-5">
                   <Row>
                       <Col md={12}>
-                          <h2 className="pb-2">About the Builder – CasaGrand</h2>
-                          <p>Established in 2004, Casagrand Builder Private Limited is a Chennai-based real estate enterprise that has solidified its presence in the residential market with more than 110+ landmark properties across the southern states of India. Since its inception, Casagrand has worked towards a vision of building aspirations and delivering value. Over 21,000 happy families have found their dream homes and investments at Casagrand properties.</p>
-                          <p>Having developed over 30 million sq. ft. of luxury residences across Chennai, Bengaluru, Coimbatore, and Kodaikanal, Casagrand has changed the landscape of South India with self-sufficient townships, premium apartments, independent villas, and plots. Casagrand is among the best property developers in Chennai, with projects worth 8,000 crores including luxury apartments in Chennai and luxury villas in Chennai.</p>
-                          <p>Casagrand is now a top real estate company in Chennai and has strategically chosen to develop its properties in burgeoning localities that offer ease in connectivity, thriving social and commercial infrastructure, and proximity to modern lifestyle conveniences.</p>
+                          <h2 className="pb-2">About the Builder – 42 Estates</h2>
+                          <p>Since its inception, 42 Estates has been building path-breaking edifices and reshaping spaces. Ease of usability, style, and luxury are the cornerstones of our work. For us, our clients’ comfort is paramount. 42 Estates has made its mark across the world, with business footprints in The United States, Dubai, and India.</p>
+                          <p>Our constructions make a unique contribution to the skyline. With engineering marvels, design innovations, and architectural aesthetics we have carved a niche in the residential and hospitality sector.</p>
+                          <p>While 42 Estates brings a continental flavor to designs, we make sure we conform to the local norms, conditions, and market forces. This makes us a truly unique and innovative construction firm with a global perspective.</p>
+                          <p>Our partnership with diverse companies, groups, professionals, vendors, and many other co-makers has enriched our journey. We are grateful to all of them. But our deepest gratitude is reserved for our clientele, with whose discerning help and support we have built this multinational institution providing convenience and comfort to different sectors of people across continents.</p>
                       </Col>
                   </Row>
               </div>

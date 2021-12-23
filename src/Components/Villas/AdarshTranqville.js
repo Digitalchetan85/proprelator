@@ -21,6 +21,7 @@ export default function AdarshTranqville() {
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
+                <h2>About Adarsh Tranqville</h2>
                 <p>
                 Adarsh Tranqville is a new luxury residential Villa project in Chikkagubbi, just off Hennur Main Road, North Bangalore.
                 </p>
@@ -45,13 +46,13 @@ export default function AdarshTranqville() {
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">Prestige White Meadows Configuration</h2>
+                  <h2 className="pb-2">Adarsh Tranqville Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
                       <Card.Body>
                         <Card.Title>Project Location</Card.Title>
-                        <Card.Text>Chikkagubbi, Bangalore</Card.Text>
+                        <Card.Text>Chikkagubbi, Off Hennur Road</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -87,7 +88,7 @@ export default function AdarshTranqville() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Unit Variants</Card.Title>
-                        <Card.Text>Triplex 4 BHK Bungalows 4 BHK Sky Villas</Card.Text>
+                        <Card.Text>3,4 BHK Villas</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -96,7 +97,7 @@ export default function AdarshTranqville() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Possession Time </Card.Title>
-                        <Card.Text>Ready to Move-In</Card.Text>
+                        <Card.Text>Jun 2022 Onwards</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -138,7 +139,7 @@ export default function AdarshTranqville() {
                 </Table>
               </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">Adarsh Palm Acres Configuration</h2>
+                  <h2 className="pb-2">Adarsh Tranqville Amenities and Highlights</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
@@ -287,6 +288,35 @@ export default function AdarshTranqville() {
                     </Card>
                   </Col>
                 </Row> */}
+              </div>
+              <div className="pb-2 pb-md-5">
+                  <h3>Adarsh Tranqville Villas Price</h3>
+                <Table
+                  responsive="sm"
+                  className="table-bordered align-middle text-center"
+                >
+                  <thead className="bg-primary text-white">
+                    <tr>
+                      <th>Unit Type</th>
+                      <th>Villa Size in Sq.Ft</th>
+                      <th>Approx. All Inclusive Price</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>3,4 BHK Villa</td>
+                      <td>2600 to 3445</td>
+                      <td>Rs. 2.6 Crore to Rs. 3.7 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                   
+                  </tbody>
+                </Table>
               </div>
               <div className="pb-2 pb-md-5">
                   <Row>

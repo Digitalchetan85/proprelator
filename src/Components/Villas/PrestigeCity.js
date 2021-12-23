@@ -21,6 +21,7 @@ export default function PrestigeCity() {
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
+                <h3>About Prestige City</h3>
                 <p>
                 Prestige City is a new premium Township project launched right on Sarjapur Road, Bangalore.
                 </p>
@@ -99,7 +100,7 @@ export default function PrestigeCity() {
               </div>
               <div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">Adarsh Palm Acres Configuration</h2>
+                  <h2 className="pb-2">Prestige City Amenities</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>

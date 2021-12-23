@@ -65,6 +65,62 @@ export default function OurProjects() {
             imgurl:image2,
             link: "/casa-grand",
         },
+        {
+            title:"42 Queens Square", 
+            type:"Apartment",
+            description:"42 Queens Square Villas in Sarjapur Road, Bangalore..", 
+            imgurl:image2,
+            link: "/queen-square",
+        },
+        {
+            title:"Radiance Bloosom", 
+            type:"Apartment",
+            description:"Radiance Blossom Villas in Budigere Cross, Bangalore..", 
+            imgurl:image2,
+            link: "/radiance-blossom",
+        },
+        {
+            title:"Adarsh Sanctuary", 
+            type:"Apartment",
+            description:"Adarsh Sanctuary in Sarjapur Road, Bangalore..", 
+            imgurl:image3,
+            link: "/adarsh-sanctuary",
+        },
+        {
+            title:"Concore Abode 99", 
+            type:"Apartment",
+            description:"Concorde Abode 99 in Bommasandra, Chandapura, Bangalore..", 
+            imgurl:image2,
+            link: "/concorde-abode",
+        },
+        {
+            title:"Raffles Park", 
+            type:"Apartment",
+            description:"Raffles Park Villas in Soukya Road, Whitefield, Bangalore..", 
+            imgurl:image1,
+            link: "/raffles-park",
+        },
+        {
+            title:"Assetz Earth & Essence", 
+            type:"Apartment",
+            description:"Assetz Earth & Essence in Yelahanka, Bangalore..", 
+            imgurl:image2,
+            link: "/assetz-earth",
+        },
+        {
+            title:"Assetz Leaves & Lives", 
+            type:"Apartment",
+            description:"Assetz Leaves & Lives in Sarjapur Road, Bangalore..", 
+            imgurl:image1,
+            link: "/assetz-leaves",
+        },
+        {
+            title:"Total Environment In That Quiet Earth", 
+            type:"Apartment",
+            description:"Total Environment In That Quiet Earth Hennur Road, Bangalore..", 
+            imgurl:image1,
+            link: "/total-environment",
+        },
     ]
 
     return (

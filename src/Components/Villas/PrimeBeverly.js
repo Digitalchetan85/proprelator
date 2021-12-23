@@ -21,6 +21,7 @@ export default function PrimeBeverly() {
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
+                <h2>About Prime Beverly</h2>
                 <p>
                 Prime Beverly Woods is the newest luxury residential villas project in the rapidly expanding neighborhood of Sarjapur Road, Bangalore.
                 </p>
@@ -129,7 +130,7 @@ export default function PrimeBeverly() {
                 </Table>
               </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">Adarsh Palm Acres Configuration</h2>
+                  <h2 className="pb-2">Prime Beverly Woods Amenities</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
@@ -278,6 +279,45 @@ export default function PrimeBeverly() {
                     </Card>
                   </Col>
                 </Row> */}
+              </div>
+              <div className="pb-2 pb-md-5">
+                  <h3>Prime Beverly Woods Price</h3>
+                <Table
+                  responsive="sm"
+                  className="table-bordered align-middle text-center"
+                >
+                  <thead className="bg-primary text-white">
+                    <tr>
+                      <th>Unit Type</th>
+                      <th>Villa Size in Sq.Ft</th>
+                      <th>Approx. All Inclusive Price</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>30×40 Villas</td>
+                      <td>1625</td>
+                      <td>Rs. 90.4 Lacs Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>30×50 Villas</td>
+                      <td>2020</td>
+                      <td>Rs. 1.12 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                   
+                  </tbody>
+                </Table>
               </div>
               <div className="pb-2 pb-md-5">
                   <Row>
