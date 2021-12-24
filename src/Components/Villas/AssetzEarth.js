@@ -212,7 +212,7 @@ export default function AssetzEarth() {
                         <li>Table Tennis</li>
                         <li>Landscaped Gardens</li>
                         <li>Kids Play Area</li>
-                        <li>Table Tennis</li>
+                        <li>Spa/Sauna</li>
                         <li>Party Area</li>
                       </ul>
                     </div>

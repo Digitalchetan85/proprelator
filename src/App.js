@@ -26,6 +26,12 @@ import RafflesPark from "./Components/Villas/RafflesPark";
 import AssetzEarth from './Components/Villas/AssetzEarth';
 import AssetzLeaves from './Components/Villas/Assetzleaves';
 import TotalEnvironment from './Components/Villas/TotalEnvironment';
+import AssetzSoul from './Components/Villas/AssetzSoul';
+import NambiarBellezea from './Components/Villas/NambiarBellezea';
+import DivyasreeEast from './Components/Villas/DivyasreeEast';
+import Hiranandani from './Components/Villas/Hiranandani';
+import TotalEnvironmentPursuit from './Components/Villas/TotalEnvironmentPursuit';
+import BrigadeAtmosphere from './Components/Villas/BrigadeAtmosphere';
 
 function App() {
   return (
@@ -52,6 +58,12 @@ function App() {
           <Route path="/assetz-earth" component={AssetzEarth}></Route>
           <Route path="/assetz-leaves" component={AssetzLeaves}></Route>
           <Route path="/total-environment" component={TotalEnvironment}></Route>
+          <Route path="/assetzassetz-soul-soul" component={AssetzSoul}></Route>
+          <Route path="/nambiar-bellezea" component={NambiarBellezea}></Route>
+          <Route path="/divyasree-east" component={DivyasreeEast}></Route>
+          <Route path="/hiranandani" component={Hiranandani}></Route>
+          <Route path="/total-environment-pursuit" component={TotalEnvironmentPursuit}></Route>
+          <Route path="/brigade-atmosphere" component={BrigadeAtmosphere}></Route>
           <Redirect to="/" />
         </Switch>
         <Footer />

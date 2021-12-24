@@ -121,6 +121,48 @@ export default function OurProjects() {
             imgurl:image1,
             link: "/total-environment",
         },
+        {
+            title:"Assetz Soul & Soil", 
+            type:"Apartment",
+            description:"Assetz Soul & Soil in Hennur Road, Bangalore..", 
+            imgurl:image2,
+            link: "/assetz-soul",
+        },
+        {
+            title:"Nambiar Bellezea", 
+            type:"Apartment",
+            description:"Nambiar Bellezea in Sarjapur Road, Bangalore..", 
+            imgurl:image3,
+            link: "/nambiar-bellezea",
+        },
+        {
+            title:"Divyasree 77 East", 
+            type:"Apartment",
+            description:"Divyasree 77 East in Yemalur, Bangalore..", 
+            imgurl:image2,
+            link: "/divyasree-east",
+        },
+        {
+            title:"Hiranandani Cottage", 
+            type:"Apartment",
+            description:"Hiranandani Devanahalli Cottage, Bangalore..", 
+            imgurl:image1,
+            link: "/hiranandani",
+        },
+        {
+            title:"Total Environment Pursuit", 
+            type:"Apartment",
+            description:"Total Environment Pursuit of a Radical Rhapsody in Whitefield, Bangalore..", 
+            imgurl:image3,
+            link: "/total-environment-pursuit",
+        },
+        {
+            title:"Brigade Atmosphere", 
+            type:"Apartment",
+            description:"Brigade Atmosphere in Devanahalli, Bangalore..", 
+            imgurl:image3,
+            link: "/brigade-atmosphere",
+        },
     ]
 
     return (

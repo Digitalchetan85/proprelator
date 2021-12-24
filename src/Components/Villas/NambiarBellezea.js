@@ -9,35 +9,25 @@ import {
   Button,
 } from "react-bootstrap";
 import Image1 from "../../Assets/images/projects/adrash-palm-acres/slider/1.png";
-import NVTSymphonySlider from "./slider/NVTSymphonySlider";
+import NambiarBellezeaSlider from "./slider/NambiarBellezeaSlider";
 
 
-export default function NVTSymphony() {
+export default function NambiarBellezea() {
   return (
     <div>
-      <NVTSymphonySlider />
+      <NambiarBellezeaSlider />
       <div id="content" className="pt-2 pb-2 pt-md-5 pb-md-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
-                <h3>About NVT Symphony of Orchards</h3>
-                <p>
-                NVT Symphony of Orchards is a brand new luxury residential Villa project in the sought-after neighborhood of Sarjapur Road, Bangalore.
-                </p>
-                <p>The residential enclave NVT Symphony of Orchards features the absolute best in NVT Quality Lifestyle’s luxury segment. The project offers spacious, finely crafted luxury 4 BHK Villas in a sprawling 18-acre spread with luxurious features.</p>
-                <p>
-                Beautiful landscapes all around NVT Symphony of Orchards with fruit-bearing orchards and a private backyard for each villa makes it more special & Elite.
-                </p>
-                <p>
-                The builder is guaranteed to bring a quality living experience to the community of Chikkagubbi just off Hennur Main Road with brilliant architecture and an equivalent lifestyle in Symphony of Orchards.
-                </p>
-                <p>
-                NVT Symphony of Orchards Location has excellent connectivity & it is located right off Sarjapur Road with key locations in East Bangalore like Sarjapura Town, Dommasandra, Hadosiddapura, Carmelaram, RGA Tech Park, Decathalon, and many more just a few minutes away
-                </p>
-                <p>
-                Amenities at NVT Symphony of Orchards include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.
-                </p>
+                <h3>About Nambiar Bellezea</h3>
+                <p>Nambiar Bellezea is a brand new residential Villa project by Nambiar Builders in the rapidly expanding neighborhood of Kaggalipura, Sarjapur Road, Bangalore.</p>
+                <p>The residential enclave, Nambiar Bellezea features the very best in Nambiar Builders luxury segment. The project offers spacious Villas with luxurious features.</p>
+                <p>Beautiful landscapes all around Nambiar Bellezea makes it more special & Elite.</p>
+                <p>The builder is guaranteed to bring a quality living experience to the community of Kaggalipura, Sarjapur Road with brilliant architecture and equivalent lifestyle in Nambiar Bellezea.</p>
+                <p>Nambiar Bellezea Location has excellent connectivity & it is located at the heart of Kaggalipura, Sarjapur Road.</p>
+                <p>Amenities at Nambiar Bellezea include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.</p>
                 
 
                 <a href="https://www.youtube.com/watch?v=atMp4ufSWw4">
@@ -46,13 +36,13 @@ export default function NVTSymphony() {
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">NVT Symphony of Orchards Villas Configuration</h2>
+                  <h2 className="pb-2">Nambiar Bellezea Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
                       <Card.Body>
                         <Card.Title>Project Location</Card.Title>
-                        <Card.Text>Sarjapur Road</Card.Text>
+                        <Card.Text>Kaggalipura, Sarjapur Road</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -61,7 +51,7 @@ export default function NVTSymphony() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Total Land Area</Card.Title>
-                        <Card.Text>18 Acres</Card.Text>
+                        <Card.Text>110 Acres</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -70,7 +60,7 @@ export default function NVTSymphony() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>No. of Units</Card.Title>
-                        <Card.Text>161 Units</Card.Text>
+                        <Card.Text>450 Units</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -79,7 +69,7 @@ export default function NVTSymphony() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Towers and Blocks</Card.Title>
-                        <Card.Text>N.A.</Card.Text>
+                        <Card.Text>6 Rows</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -88,7 +78,7 @@ export default function NVTSymphony() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Unit Variants</Card.Title>
-                        <Card.Text>4 BHK + Home Office + Lounge</Card.Text>
+                        <Card.Text>4 BHK</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -97,7 +87,7 @@ export default function NVTSymphony() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Possession Time </Card.Title>
-                        <Card.Text>Feb 2026 Onwards</Card.Text>
+                        <Card.Text>Phase 1,2 – Ready to Move-In (Built on Order)</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -110,15 +100,15 @@ export default function NVTSymphony() {
                 >
                   <thead className="bg-primary text-white">
                     <tr>
-                      <th>Villa Type</th>
-                      <th>Villa Size in Sq.Ft</th>
+                      <th>Villa Land Size (Sq.Ft)</th>
+                      <th>Built up Size (Sq.Ft)</th>
                       
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>LEMON</td>
-                      <td>4068 – 4096</td>
+                      <td>3000</td>
+                      <td>3600</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -126,8 +116,8 @@ export default function NVTSymphony() {
                       </td>
                     </tr>
                     <tr>
-                      <td>MANGO</td>
-                      <td>3686 – 3708</td>
+                      <td>4000</td>
+                      <td>4800</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -135,8 +125,8 @@ export default function NVTSymphony() {
                       </td>
                     </tr>
                     <tr>
-                      <td>NECTARINE</td>
-                      <td>3481 – 3519</td>
+                      <td>4500</td>
+                      <td>5400</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -144,8 +134,8 @@ export default function NVTSymphony() {
                       </td>
                     </tr>
                     <tr>
-                      <td>ORANGE</td>
-                      <td>2931 – 3047</td>
+                      <td>5345</td>
+                      <td>6414</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -153,42 +143,40 @@ export default function NVTSymphony() {
                       </td>
                     </tr>
                     <tr>
-                      <td>PEACH</td>
-                      <td>3161</td>
+                      <td>6900</td>
+                      <td>8280</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
                         </Button>
                       </td>
                     </tr>
-                    
-                   
-                  </tbody>
+                    </tbody>
                 </Table>
               </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">NVT Symphony of Orchards Villas Amenities    </h2>
+                  <h2 className="pb-2">Nambiar Bellezea Amenities</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
                         <li>Gymnasium</li>
                         <li>Clubhouse</li>
                         <li>Swimming Pool</li>
-                        <li>Indoor Games Room</li>
+                        <li>Games Room</li>
                         <li>Kids Play Area</li>
-                        <li>Jogging Trail</li>
+                        <li>Jogging Track</li>
                       </ul>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="">
                       <ul>
-                        <li>Active Sports Courts</li>
-                        <li>Yoga Zone</li>
-                        <li>Landscaped Orchard Gardens</li>
-                        <li>Multipurpose Hall</li>
-                        <li>Business Centre</li>
-                        <li>Retail Spaces</li>
+                        <li>Outdoor Courts</li>
+                        <li>Table Tennis</li>
+                        <li>Landscaped Gardens</li>
+                        <li>Party Area</li> 
+                        <li>Mini Theatre</li>
+                        <li>Health Centers</li>
                       </ul>
                     </div>
                   </Col>
@@ -318,24 +306,24 @@ export default function NVTSymphony() {
                 </Row> */}
               </div>
               <div className="pb-2 pb-md-5">
-                  <h3>NVT Symphony of Orchards Villas Price</h3>
+                  <h3>Nambiar Bellezea Price</h3>
                 <Table
                   responsive="sm"
                   className="table-bordered align-middle text-center"
                 >
                   <thead className="bg-primary text-white">
                     <tr>
-                      <th>Unit Type</th>
-                      <th>Villa Size in Sq.Ft</th>
-                      <th>Approx. All Inclusive Price</th>
+                      <th>Land Size (Sq.ft)</th>
+                      <th>Villa Size (Sq.ft)</th>
+                      <th>Approx. Final Price</th>
                       
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>ORANGE</td>
-                      <td>2931 to 3047</td>
-                      <td>Rs. 2.19 Crore Onwards</td>
+                      <td>3000</td>
+                      <td>3600</td>
+                      <td>Rs. 4.08 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -343,9 +331,9 @@ export default function NVTSymphony() {
                       </td>
                     </tr>
                     <tr>
-                      <td>PEACH</td>
-                      <td>3161</td>
-                      <td>Rs. 2.23 Crore Onwards</td>
+                      <td>4000</td>
+                      <td>4800</td>
+                      <td>Rs. 5.42 Crore Onwardss</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -353,9 +341,9 @@ export default function NVTSymphony() {
                       </td>
                     </tr>
                     <tr>
-                      <td>NECTARINE</td>
-                      <td>3481 to 3519</td>
-                      <td>Rs. 2.56 Crore Onwards</td>
+                      <td>4500</td>
+                      <td>5400</td>
+                      <td>Rs. 6.09 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -363,9 +351,9 @@ export default function NVTSymphony() {
                       </td>
                     </tr>
                     <tr>
-                      <td>MANGO</td>
-                      <td>3686 to 3708</td>
-                      <td>Rs. 2.82 Crore Onwards</td>
+                      <td>5345</td>
+                      <td>6414</td>
+                      <td>Rs. 7.23 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -373,25 +361,24 @@ export default function NVTSymphony() {
                       </td>
                     </tr>
                     <tr>
-                      <td>LEMON</td>
-                      <td>4068 to 4096</td>
-                      <td>Rs. 3.15 Crore Onwards</td>
+                      <td>6900</td>
+                      <td>8280</td>
+                      <td>Rs. 9.31 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
                         </Button>
                       </td>
                     </tr>
-                   
-                  </tbody>
+                        </tbody>
                 </Table>
               </div>
               <div className="pb-2 pb-md-5">
                   <Row>
                       <Col md={12}>
-                          <h2 className="pb-2">About the Builder – NVT Quality Lifestyle</h2>
-                          <p>NVT Quality Lifestyle is a professionally managed real estate company dedicated to developing high-end residential and commercial projects. The company is part of the NVT Group established in 1995. NVT Group is run by professionals who are alumni from IIT, Carnegie Mellon, Purdue, and Wharton. With the benefit of their global exposure across industries, they bring in the best practices across divisions and have a single-minded focus on quality. Our strategy – Do the best you can to build the best that can be. Everything else will fall in place.</p>
-                          <p>At NVT Quality Lifestyle, we strive for excellence. We aim to please our clients and customers with our innovative designs and impeccable execution. When we create, we aspire to wrap architectural functionalities in a cocoon of designs and styles that are pleasing to the eye. Combining art and utility as per our clients’ needs is our foremost priority.</p>
+                          <h2 className="pb-2">About the Builder – Nambiar Builders</h2>
+                          <p>Nambiar Builders is an established real estate development company based in Bangalore, Nambiar Builders was launched by seasoned entrepreneurs with extensive experience in the Indian realty sector. Right from inception, we set out to create a real estate standard that upholds uncompromised quality, functional innovation and transparency.</p>
+                          <p>Today our diverse portfolio of projects includes gated communities, residential layouts, premium apartments and luxury villas, in and around Bangalore. Our vast land bank gives us the rare luxury of building our properties on self owned land; a value that our customers enjoy over a lifetime.</p>
                       </Col>
                   </Row>
               </div>

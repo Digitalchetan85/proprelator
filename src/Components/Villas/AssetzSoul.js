@@ -9,35 +9,25 @@ import {
   Button,
 } from "react-bootstrap";
 import Image1 from "../../Assets/images/projects/adrash-palm-acres/slider/1.png";
-import NVTSymphonySlider from "./slider/NVTSymphonySlider";
+import AssetzSoulSlider from "./slider/AssetzSoulSlider";
 
 
-export default function NVTSymphony() {
+export default function AssetzSoul() {
   return (
     <div>
-      <NVTSymphonySlider />
+      <AssetzSoulSlider />
       <div id="content" className="pt-2 pb-2 pt-md-5 pb-md-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
-                <h3>About NVT Symphony of Orchards</h3>
-                <p>
-                NVT Symphony of Orchards is a brand new luxury residential Villa project in the sought-after neighborhood of Sarjapur Road, Bangalore.
-                </p>
-                <p>The residential enclave NVT Symphony of Orchards features the absolute best in NVT Quality Lifestyle’s luxury segment. The project offers spacious, finely crafted luxury 4 BHK Villas in a sprawling 18-acre spread with luxurious features.</p>
-                <p>
-                Beautiful landscapes all around NVT Symphony of Orchards with fruit-bearing orchards and a private backyard for each villa makes it more special & Elite.
-                </p>
-                <p>
-                The builder is guaranteed to bring a quality living experience to the community of Chikkagubbi just off Hennur Main Road with brilliant architecture and an equivalent lifestyle in Symphony of Orchards.
-                </p>
-                <p>
-                NVT Symphony of Orchards Location has excellent connectivity & it is located right off Sarjapur Road with key locations in East Bangalore like Sarjapura Town, Dommasandra, Hadosiddapura, Carmelaram, RGA Tech Park, Decathalon, and many more just a few minutes away
-                </p>
-                <p>
-                Amenities at NVT Symphony of Orchards include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.
-                </p>
+                <h3>About Assetz Soul & Soil</h3>
+                <p>Assetz Soul & Soil is a brand new residential villa project by Assetz Group in the rapidly expanding neighborhood of Hennur Road, Bangalore.</p>
+                <p>The residential enclave, Soul & Soil features the very best in Assetz Group luxury segment. The project offers spacious villas with luxurious features.</p>
+                <p>Beautiful landscapes all around Assetz Soul & Soil make it more special & Elite.</p>
+                <p>The builder is guaranteed to bring a quality living experience to the community of Hennur Road with brilliant architecture and an equivalent lifestyle in Soul & Soil.</p>
+                <p>Assetz Soul & Soil Location has excellent connectivity & it is located at the heart of North Bangalore.</p>
+                <p>Amenities at Assetz Soul & Soil include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities</p>
                 
 
                 <a href="https://www.youtube.com/watch?v=atMp4ufSWw4">
@@ -46,13 +36,13 @@ export default function NVTSymphony() {
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">NVT Symphony of Orchards Villas Configuration</h2>
+                  <h2 className="pb-2">Assetz Soul & Soil Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
                       <Card.Body>
                         <Card.Title>Project Location</Card.Title>
-                        <Card.Text>Sarjapur Road</Card.Text>
+                        <Card.Text>Hennur Road</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -61,7 +51,7 @@ export default function NVTSymphony() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Total Land Area</Card.Title>
-                        <Card.Text>18 Acres</Card.Text>
+                        <Card.Text>7 Acres</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -70,7 +60,7 @@ export default function NVTSymphony() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>No. of Units</Card.Title>
-                        <Card.Text>161 Units</Card.Text>
+                        <Card.Text>94 Units</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -79,7 +69,7 @@ export default function NVTSymphony() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Towers and Blocks</Card.Title>
-                        <Card.Text>N.A.</Card.Text>
+                        <Card.Text>2 Phases, G + 2 Floors</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -88,7 +78,8 @@ export default function NVTSymphony() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Unit Variants</Card.Title>
-                        <Card.Text>4 BHK + Home Office + Lounge</Card.Text>
+                        <Card.Text>3,4 BHK</Card.Text>
+                        <Card.Text>Rowhouses</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -97,7 +88,7 @@ export default function NVTSymphony() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Possession Time </Card.Title>
-                        <Card.Text>Feb 2026 Onwards</Card.Text>
+                        <Card.Text>Oct 2021 Onwards</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -110,15 +101,15 @@ export default function NVTSymphony() {
                 >
                   <thead className="bg-primary text-white">
                     <tr>
-                      <th>Villa Type</th>
-                      <th>Villa Size in Sq.Ft</th>
+                      <th>Unit Type</th>
+                      <th>Size in Sq.Ft</th>
                       
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>LEMON</td>
-                      <td>4068 – 4096</td>
+                      <td>3 BHK Row House</td>
+                      <td>2182</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -126,69 +117,40 @@ export default function NVTSymphony() {
                       </td>
                     </tr>
                     <tr>
-                      <td>MANGO</td>
-                      <td>3686 – 3708</td>
+                      <td>4 BHK Row House</td>
+                      <td>2532</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
                         </Button>
                       </td>
                     </tr>
-                    <tr>
-                      <td>NECTARINE</td>
-                      <td>3481 – 3519</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>ORANGE</td>
-                      <td>2931 – 3047</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>PEACH</td>
-                      <td>3161</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
-                    
-                   
-                  </tbody>
+                    </tbody>
                 </Table>
               </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">NVT Symphony of Orchards Villas Amenities    </h2>
+                  <h2 className="pb-2">Assetz Soul & Soil Amenities</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
                         <li>Gymnasium</li>
                         <li>Clubhouse</li>
                         <li>Swimming Pool</li>
-                        <li>Indoor Games Room</li>
-                        <li>Kids Play Area</li>
-                        <li>Jogging Trail</li>
+                        <li>Games Room</li>
+                        <li>Retail Spaces</li>
+                        <li>Jogging Track</li>
                       </ul>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="">
                       <ul>
-                        <li>Active Sports Courts</li>
-                        <li>Yoga Zone</li>
-                        <li>Landscaped Orchard Gardens</li>
-                        <li>Multipurpose Hall</li>
-                        <li>Business Centre</li>
-                        <li>Retail Spaces</li>
+                        <li>Outdoor Courts</li>
+                        <li>Table Tennis</li>
+                        <li>Landscaped Gardens</li>
+                        <li>Kids Play Area</li>
+                        <li>Spa/Sauna</li>
+                        <li>Party Area</li>
                       </ul>
                     </div>
                   </Col>
@@ -318,7 +280,7 @@ export default function NVTSymphony() {
                 </Row> */}
               </div>
               <div className="pb-2 pb-md-5">
-                  <h3>NVT Symphony of Orchards Villas Price</h3>
+                  <h3>Assetz Soul & Soil Price</h3>
                 <Table
                   responsive="sm"
                   className="table-bordered align-middle text-center"
@@ -326,16 +288,16 @@ export default function NVTSymphony() {
                   <thead className="bg-primary text-white">
                     <tr>
                       <th>Unit Type</th>
-                      <th>Villa Size in Sq.Ft</th>
+                      <th>Size in Sq.Ft</th>
                       <th>Approx. All Inclusive Price</th>
                       
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>ORANGE</td>
-                      <td>2931 to 3047</td>
-                      <td>Rs. 2.19 Crore Onwards</td>
+                      <td>3 BHK Row House</td>
+                      <td>2182</td>
+                      <td>Rs. 2.00 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -343,55 +305,25 @@ export default function NVTSymphony() {
                       </td>
                     </tr>
                     <tr>
-                      <td>PEACH</td>
-                      <td>3161</td>
-                      <td>Rs. 2.23 Crore Onwards</td>
+                      <td>4 BHK Row house</td>
+                      <td>2532</td>
+                      <td>Rs. 2.30 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
                         </Button>
                       </td>
                     </tr>
-                    <tr>
-                      <td>NECTARINE</td>
-                      <td>3481 to 3519</td>
-                      <td>Rs. 2.56 Crore Onwards</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>MANGO</td>
-                      <td>3686 to 3708</td>
-                      <td>Rs. 2.82 Crore Onwards</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>LEMON</td>
-                      <td>4068 to 4096</td>
-                      <td>Rs. 3.15 Crore Onwards</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
-                   
-                  </tbody>
+                        </tbody>
                 </Table>
               </div>
               <div className="pb-2 pb-md-5">
                   <Row>
                       <Col md={12}>
-                          <h2 className="pb-2">About the Builder – NVT Quality Lifestyle</h2>
-                          <p>NVT Quality Lifestyle is a professionally managed real estate company dedicated to developing high-end residential and commercial projects. The company is part of the NVT Group established in 1995. NVT Group is run by professionals who are alumni from IIT, Carnegie Mellon, Purdue, and Wharton. With the benefit of their global exposure across industries, they bring in the best practices across divisions and have a single-minded focus on quality. Our strategy – Do the best you can to build the best that can be. Everything else will fall in place.</p>
-                          <p>At NVT Quality Lifestyle, we strive for excellence. We aim to please our clients and customers with our innovative designs and impeccable execution. When we create, we aspire to wrap architectural functionalities in a cocoon of designs and styles that are pleasing to the eye. Combining art and utility as per our clients’ needs is our foremost priority.</p>
+                          <h2 className="pb-2">About the Builder – Assetz Group</h2>
+                          <p>Founded in 2006, Assetz Property Group is a front-runner among multinational developers in India with over 10 million square feet under development. Assetz, headquartered in Singapore, is a multi-faceted real estate development and asset management company with four business verticals: Commercial, Residential, Warehousing and Fund Management..</p>
+                          <p>Assetz has built two world-class IT tech parks in Bangalore: Vrindavan Tech Village (now Embassy Tech Village) – India’s first Platinum LEED certified IT SEZ, and Global Technology Park. And, its residential portfolio includes ten projects in prominent locations across Bangalore. The Assetz Fund Management vertical is a leading performer in the real estate fund management industry generating high alpha returns for its investors compared to its peers.</p>
+                          <p>Assetz is a preferred partner of private equity funds completing more than 10 private equity investments and delivering nine exits to date. A stellar track record has earned Assetz a reputation for professionalism and for challenging conventions through innovation. The company is on an upward growth trajectory and is one of the fastest growing real estate developers in the country.</p>
                       </Col>
                   </Row>
               </div>
