@@ -3,24 +3,59 @@ import {Container, Row, Col, Card, Button} from 'react-bootstrap'
 import image1 from '../../Assets/images/projects/adarsha.png'
 import image2 from '../../Assets/images/projects/prestige-white-widows.png'
 import image3 from '../../Assets/images/projects/adarah-visteria.png'
+import { Link } from 'react-router-dom';
 
 export default function OurApartmentProjects() {
 
     const projects = [
         {
-            title:"Adarsh Palm Acres", 
-            description:"Adarsh Palm Acres is the close to possession residential Villa project launched in Huttanahalli, Bagalur, North Bangalore.", 
+            title:"Assetz 38 & Banyan", 
+            description:"Assetz 38 & Banyan is the Ready to Move-In Ultra Luxury residential Apartment project launched in CV Raman Nagar, Bangalore.", 
             imgurl:image1,
+            link: "/assetz-banyan",
         },
         {
-            title:"Prestige White Meadows", 
-            description:"Prestige White Meadows is the landmark Ready to Move-in residential Apartment and Villas project by Prestige Constructions located in Whitefield Main Road, Whitefield, Bangalore.", 
+            title:"Assetz Sun and Sanctum", 
+            description:"Assetz Sun and Sanctum in Old Madras Road, Bangalore.", 
             imgurl:image2,
+            link: "/assetz-sun",
         },
         {
-            title:"Adarsh Wisteria", 
-            description:"Adarsh Wisteria is a new premium residential Villa project in Chikkagubbi, just off Hennur Main Road, North Bangalore.", 
+            title:"Assetz Marq 3.0", 
+            description:"Assetz Marq 3.0 in Whitefield, Bangalore", 
             imgurl:image3,
+            link: "/assetz-Marq",
+        },
+        {
+            title:"Sobha Windsor", 
+            description:"Sobha Windsor in Whitefield, Bangalore.", 
+            imgurl:image2,
+            link: "/sobha-windsor",
+        },
+        {
+            title:"Sobha Manhattan", 
+            description:"Sobha Town Park Manhattan Towers in Hosur Road, Bangalore.", 
+            imgurl:image1,
+            link: "/sobha-manhattan",
+        },
+        
+        {
+            title:"Nikoo Homes 4", 
+            description:"Nikoo Homes 4 in Bhartiya City, Thanisandra, Bangalore", 
+            imgurl:image3,
+            link: "/nikoo-homes",
+        },
+        {
+            title:"Godrej Ananda    ", 
+            description:"Godrej Ananda in Bagalur, Bangalore", 
+            imgurl:image1,
+            link: "/godrej-ananda",
+        },        
+        {
+            title:"Purva Atmosphere", 
+            description:"Purva Atmosphere in Thanisandra, Bangalore", 
+            imgurl:image1,
+            link: "/purva-atmosphere",
         },
     ]
 
@@ -38,7 +73,7 @@ export default function OurApartmentProjects() {
                                             <Card.Title>{project.title}</Card.Title>
                                             <Card.Text>{project.description}</Card.Text>
                                             <div>
-                                                <Button variant="primary" className="float-start">Read More</Button>
+                                                <Button variant="primary" as={Link} to={project.link} className="float-start">Read More</Button>
                                                 <Button variant="primary" className="float-end">Contact Us</Button>
                                             </div>
                                         </Card.Body>

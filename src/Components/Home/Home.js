@@ -10,6 +10,7 @@ import Icon4 from "../../Assets/images/icon4.png";
 import Second from "../../Assets/images/second-section.jpg";
 import AssociationSlider from '../PageIncludes/AssociationSlider'
 import OurProjectsVillas from '../PageIncludes/OurVillasProjects'
+import OurProjectsAppartments from "../PageIncludes/OurApartmentProjects"
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
       <AssociationSlider />
 
       <OurProjectsVillas />
+      <OurProjectsAppartments />
+
+      
 
       {/* <OurApartmentsVillas /> */}
 

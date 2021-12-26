@@ -9,26 +9,26 @@ import {
   Button,
 } from "react-bootstrap";
 import Image1 from "../../Assets/images/projects/adrash-palm-acres/slider/1.png";
-import TotalEnvironmentSlider from "./slider/TotalEnvironmentSlider";
+import PurvaAtmosphereSlider from "./Slider/PurvaAtmosphereSlider";
 
 
-export default function TotalEnvironment() {
+export default function PurvaAtmosphere() {
   return (
     <div>
-      <TotalEnvironmentSlider />
+      <PurvaAtmosphereSlider  />
       <div id="content" className="pt-2 pb-2 pt-md-5 pb-md-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
-                <h3>About Total Environment In That Quiet Earth</h3>
-                <p>Total Environment In That Quiet Earth is the new residential luxury apartment and villas project launched in Hennur Road, Bangalore.</p>
-                <p>The residential enclave TE In That Quiet Earth features the very best in Total Environment’s luxury living segment. The project offers spacious luxury apartments and villas with luxurious features.</p>
-                <p>Beautiful landscapes all around Total Environment In That Quiet Earth makes it more special & Elite.</p>
-                <p>The builder is guaranteed to bring a quality living experience to the community of Hennur Road, North Bangalore with brilliant architecture and an equivalent lifestyle in TE In That Quiet Earth.</p>
-                <p>Total Environment In That Quiet Earth Location has excellent connectivity & it is located at the crux of Hennur Road near existing and upcoming communities & facilities.</p>
-                <p>Amenities at Total Environment In That Quiet Earth include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.</p>
-                
+                <h3>About Purva Atmosphere</h3>
+                <p>Purva Atmosphere is the new residential Apartment project launched in Thanisandra Road, Bangalore.</p>
+                <p>The residential enclave, Purva Atmosphere features the very best in Puravankara luxury segment. The project offers spacious apartments with luxurious features.</p>
+                <p>Purva Atmosphere is based and conceptualized on “WORLD HOME COLLECTION” concept. It is degined considering Nature, Inteligence, Technology & Hand Picked Luxury.</p>
+                <p>40′ Air Filteration Tower which purifiers the air for radious of around 3 Kms & Beautiful landscapes all around Purva Atmosphere makes it more special & Elite.</p>
+                <p>The builder is guaranteed to bring a quality living experience to the community of Thanisandra with brilliant architecture and equivalent lifestyle in Purva Atmosphere.</p>
+                <p>Purva Atmosphere Location has excellent connectivity & it is located at the heart of the developing North Bangalore, Thanisandra area.</p>
+                <p>Amenities at Purva Atmosphere include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.</p>
 
                 <a href="https://www.youtube.com/watch?v=atMp4ufSWw4">
                   <Image src={Image1} alt="YouTube" className="img-fluid" />
@@ -36,13 +36,13 @@ export default function TotalEnvironment() {
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">Total Environment In That Quiet Earth Configuration</h2>
+                  <h2 className="pb-2">Purva Atmosphere Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
                       <Card.Body>
                         <Card.Title>Project Location</Card.Title>
-                        <Card.Text>Bileshevale, Hennur Road</Card.Text>
+                        <Card.Text>Hegde Nagar, Thanisandra Road</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -51,7 +51,7 @@ export default function TotalEnvironment() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Total Land Area</Card.Title>
-                        <Card.Text>14.5 Acres</Card.Text>
+                        <Card.Text>13 Acres</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -60,7 +60,7 @@ export default function TotalEnvironment() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>No. of Units</Card.Title>
-                        <Card.Text>560   Units</Card.Text>
+                        <Card.Text>939 Units</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -69,7 +69,7 @@ export default function TotalEnvironment() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Towers and Blocks</Card.Title>
-                        <Card.Text>2B + G + 36 Floors</Card.Text>
+                        <Card.Text>3B + G + 33,34 Floors</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -78,8 +78,7 @@ export default function TotalEnvironment() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Unit Variants</Card.Title>
-                        <Card.Text>Ultra Luxury</Card.Text>
-                        <Card.Text>2,3,4 BHK & Villas</Card.Text>
+                        <Card.Text>2,3,4 BHK</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -88,7 +87,7 @@ export default function TotalEnvironment() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Possession Time </Card.Title>
-                        <Card.Text>Sept 2023 Onwards    </Card.Text>
+                        <Card.Text>Mar 2024 Onwards </Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -108,8 +107,8 @@ export default function TotalEnvironment() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>2 BHK (U10)</td>
-                      <td>1431 sft</td>
+                      <td>2 BHK</td>
+                      <td>1299</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -117,28 +116,46 @@ export default function TotalEnvironment() {
                       </td>
                     </tr>
                     <tr>
-                      <td>3 BHK (H20)e</td>
-                      <td>2305 sft</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr> <tr>
-                      <td>4 BHK (U20))</td>
-                      <td>2890 sft</td>
+                      <td>3 BHK</td>
+                      <td>1674</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
                         </Button>
                       </td>
                     </tr>
-
+                    <tr>
+                      <td>3 BHK</td>
+                      <td>1989</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK</td>
+                      <td>2241</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4 BHK</td>
+                      <td>2420</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
                     </tbody>
                 </Table>
               </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">Total Environment In That Quiet Earth Amenities</h2>
+                  <h2 className="pb-2">Purva Atmosphere Amenities</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
@@ -146,7 +163,7 @@ export default function TotalEnvironment() {
                         <li>Clubhouse</li>
                         <li>Swimming Pool</li>
                         <li>Games Room</li>
-                        <li>Spa & Sauna</li>
+                        <li>Basketball Court</li>
                         <li>Jogging Track</li>
                       </ul>
                     </div>
@@ -158,8 +175,8 @@ export default function TotalEnvironment() {
                         <li>Table Tennis</li>
                         <li>Landscaped Gardens</li>
                         <li>Kids Play Area</li>
-                        <li>Retail Spaces</li>
-                        <li>Party Area</li>
+                        <li>Spa, Sauna</li>
+                        <li>Party Areas</li>
                       </ul>
                     </div>
                   </Col>
@@ -289,55 +306,7 @@ export default function TotalEnvironment() {
                 </Row> */}
               </div>
               <div className="pb-2 pb-md-5">
-                  <h3>Price of Total Environment In That Quiet Earth</h3>
-                <Table
-                  responsive="sm"
-                  className="table-bordered align-middle text-center"
-                >
-                  <thead className="bg-primary text-white">
-                    <tr>
-                      <th>Villa Type</th>
-                      <th>Size in Sq.Ft</th>
-                      <th>Approx. Final Price</th>
-                      
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>2 BHK (U10)</td>
-                      <td>1431</td>
-                      <td>Rs. 1.24 Crore Onwards</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>3 BHK (H20)</td>
-                      <td>2305 to 2409</td>
-                      <td>Rs. 2.13 Crore Onwards</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>4 BHK (U20)</td>
-                      <td>2890</td>
-                      <td>Rs. 2.71 Crore Onwards</td>
-                      <td>
-                        <Button type="button" className="btn btn-primary">
-                          Download
-                        </Button>
-                      </td>
-                    </tr>
-                        </tbody>
-                </Table>
-              </div>
-              <div className="pb-2 pb-md-5">
-                  <h3>Total Environment In That Quiet Earth Villas</h3>
+                  <h3>Purva Atmosphere Price</h3>
                 <Table
                   responsive="sm"
                   className="table-bordered align-middle text-center"
@@ -346,15 +315,61 @@ export default function TotalEnvironment() {
                     <tr>
                       <th>Unit Type</th>
                       <th>Size in Sq.Ft</th>
-                      <th>Approx. Final Price</th>
+                      <th>Basic Price</th>
+                      <th>Approx. All Inclusive Price</th>
                       
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>V35 3 BHK Villas</td>
-                      <td>3430 to 3462</td>
-                      <td>Rs. 4.22 Crore Onwards</td>
+                      <td>2 BHK</td>
+                      <td>1278</td>
+                      <td>Rs. 92 Lacs</td>
+                      <td>	Rs. 1.04 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK Comfort</td>
+                      <td>1680</td>
+                      <td>Rs. 118 Lacs</td>
+                      <td>Rs. 1.56 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK Grand</td>
+                      <td>2000</td>
+                      <td>Rs. 139 Lacs</td>
+                      <td>Rs.1.56 Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK Lux</td>
+                      <td>2182</td>
+                      <td>Rs. 150 Lacs</td>
+                      <td>Rs.1.6 9Crore Onwards</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4 BHK</td>
+                      <td>2421</td>
+                      <td>Rs. 166 Lacs</td>
+                      <td>Rs.1.87 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -364,13 +379,14 @@ export default function TotalEnvironment() {
                         </tbody>
                 </Table>
               </div>
+             
               <div className="pb-2 pb-md-5">
                   <Row>
                       <Col md={12}>
-                          <h2 className="pb-2">About the Builder – Total Environment</h2>
-                          <p>At Total Environment, we are focused on creating spaces that you can be proud of living and working in. Our goal is to combine our professional expertise with cutting-edge technology and an out-of-the-box approach to make living more comfortable, productive and joyous.</p>
-                          <p>We work together as an integrated team – from concept to completion. This high degree of interaction between our design, construction and business development teams ensures that every little detail gets the close attention it deserves.</p>
-                          <p>We combine our design skills with excellent craftsmanship to deliver homes of the highest quality, always striving to design and build the most beautiful homes in the world..</p>
+                          <h2 className="pb-2">About the Builder – Puravankara</h2>
+                          <p>Since its inception in 1975, Puravankara has believed that there is only one mantra for success: Quality. This credo combined with uncompromising values, customer-centricity, robust engineering, and transparency in business operations, has placed it among the ‘most preferred’ real estate brands in both residential and commercial segments.</p>
+                          <p>The Company has grown from strength to strength, having successfully completed 36 residential/commercial projects spanning 7.80 million square feet. Currently, it has 29 million square feet of projects under development, with an additional 88 million square feet in projected development over the next 7-10 years. An ISO 9001 certification by DNV in 1998 and a DA2+ rating by CRISIL are testament to Puravankara’s reputation as a real estate developer of the highest quality and reliability standards.</p>
+                          <p>The Group commenced operations in Mumbai and has established significant presence in the metropolitan cities of Bangalore, Kochi, Chennai, Coimbatore, Hyderabad, Mysore and overseas in Dubai, Colombo and Saudi-Arabia. Explore other projects from Puravankara like : Purva Waves, Purva 270, Purva Whitehall, Purva Palm Beach, Purva Sunflower, Puravankara Sammys Dreamland & Puravankara Sound of Water.</p>
                       </Col>
                   </Row>
               </div>

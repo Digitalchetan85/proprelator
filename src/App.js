@@ -32,6 +32,14 @@ import DivyasreeEast from './Components/Villas/DivyasreeEast';
 import Hiranandani from './Components/Villas/Hiranandani';
 import TotalEnvironmentPursuit from './Components/Villas/TotalEnvironmentPursuit';
 import BrigadeAtmosphere from './Components/Villas/BrigadeAtmosphere';
+import AssetzBanyan from "./Components/Appartments/AssetzBanyan";
+import AssetzSun from "./Components/Appartments/AssetzSun";
+import AssetzMarq from './Components/Appartments/AssetzMarq';
+import SobhaWindsor from './Components/Appartments/SobhaWindsor';
+import SobhaManhattan from './Components/Appartments/SobhaManhattan';
+import NikooHomes from "./Components/Appartments/NikooHomes";
+import GodrejAnanda from './Components/Appartments/GodrejAnanda';
+import PurvaAtmosphere from './Components/Appartments/PurvaAtmosphere';
 
 function App() {
   return (
@@ -64,6 +72,14 @@ function App() {
           <Route path="/hiranandani" component={Hiranandani}></Route>
           <Route path="/total-environment-pursuit" component={TotalEnvironmentPursuit}></Route>
           <Route path="/brigade-atmosphere" component={BrigadeAtmosphere}></Route>
+          <Route path="/assetz-banyan" component={AssetzBanyan}></Route>
+          <Route path="/assetz-sun" component={AssetzSun}></Route>
+          <Route path="/assetz-Marq" component={AssetzMarq}></Route>
+          <Route path="/sobha-windsor" component={SobhaWindsor}></Route>
+          <Route path="/sobha-manhattan" component={SobhaManhattan}></Route>
+          <Route path="/nikoo-homes" component={NikooHomes}></Route>
+          <Route path="/godrej-ananda" component={GodrejAnanda}></Route>
+          <Route path="/purva-atmosphere" component={PurvaAtmosphere}></Route>
           <Redirect to="/" />
         </Switch>
         <Footer />
