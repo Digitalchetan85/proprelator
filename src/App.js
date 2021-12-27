@@ -40,6 +40,8 @@ import SobhaManhattan from './Components/Appartments/SobhaManhattan';
 import NikooHomes from "./Components/Appartments/NikooHomes";
 import GodrejAnanda from './Components/Appartments/GodrejAnanda';
 import PurvaAtmosphere from './Components/Appartments/PurvaAtmosphere';
+import AdarshPalmRetreat from './Components/Appartments/AdarshPalmRetreat';
+import BrigadeCornerstone from './Components/Appartments/BrigadeCornerstone';
 
 function App() {
   return (
@@ -80,6 +82,8 @@ function App() {
           <Route path="/nikoo-homes" component={NikooHomes}></Route>
           <Route path="/godrej-ananda" component={GodrejAnanda}></Route>
           <Route path="/purva-atmosphere" component={PurvaAtmosphere}></Route>
+          <Route path="/adarsh-palm-retreat" component={AdarshPalmRetreat}></Route>
+          <Route path="/brigade-cornerstone" component={BrigadeCornerstone}></Route>
           <Redirect to="/" />
         </Switch>
         <Footer />

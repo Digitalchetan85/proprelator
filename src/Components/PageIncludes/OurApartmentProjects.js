@@ -48,7 +48,7 @@ export default function OurApartmentProjects() {
         {
             title:"Godrej Ananda    ", 
             description:"Godrej Ananda in Bagalur, Bangalore", 
-            imgurl:image1,
+            imgurl:image3,
             link: "/godrej-ananda",
         },        
         {
@@ -56,6 +56,18 @@ export default function OurApartmentProjects() {
             description:"Purva Atmosphere in Thanisandra, Bangalore", 
             imgurl:image1,
             link: "/purva-atmosphere",
+        },        
+        {
+            title:"Adarsh Palm Retreat Lake Front", 
+            description:"Adarsh Palm Retreat Lake Front in Kaikondrahalli, Bangalore, Bangalore", 
+            imgurl:image2,
+            link: "/adarsh-palm-retreat",
+        },       
+        {
+            title:"Brigade Cornerstone Utopia", 
+            description:"Brigade Cornerstone Utopia in Varthur, Bangalore, Bangalore", 
+            imgurl:image3,
+            link: "/brigade-cornerstone",
         },
     ]
 
