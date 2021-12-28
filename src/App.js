@@ -42,6 +42,15 @@ import GodrejAnanda from './Components/Appartments/GodrejAnanda';
 import PurvaAtmosphere from './Components/Appartments/PurvaAtmosphere';
 import AdarshPalmRetreat from './Components/Appartments/AdarshPalmRetreat';
 import BrigadeCornerstone from './Components/Appartments/BrigadeCornerstone';
+import SobhaDreamGardens from './Components/Appartments/SobhaDreamGardens';
+import KarleVarioHomes from './Components/Appartments/KarleVarioHomes';
+import TotalEnvironmentMagic from './Components/Appartments/TotalEnvironmentMagic';
+import SobhaPristine from './Components/Appartments/SobhaPristine';
+import SobhaDreamAcres from './Components/Appartments/SobhaDreamAcres';
+import SobhaLakeGarden from './Components/Appartments/SobhaLakeGarden';
+import MahindraWindchimes from './Components/Appartments/MahindraWindchimes';
+import KarleTown from './Components/Appartments/KarleTown';
+import SobhaSaptrang from './Components/Appartments/SobhaSaptrang';
 
 function App() {
   return (
@@ -84,6 +93,15 @@ function App() {
           <Route path="/purva-atmosphere" component={PurvaAtmosphere}></Route>
           <Route path="/adarsh-palm-retreat" component={AdarshPalmRetreat}></Route>
           <Route path="/brigade-cornerstone" component={BrigadeCornerstone}></Route>
+          <Route path="/sobha-dream-gardens" component={SobhaDreamGardens}></Route>
+          <Route path="/karle-vario-homes" component={KarleVarioHomes}></Route>
+          <Route path="/total-environment-magic" component={TotalEnvironmentMagic}></Route>
+          <Route path="/sobha-pristine" component={SobhaPristine}></Route>
+          <Route path="/sobha-dream-acres" component={SobhaDreamAcres}></Route>
+          <Route path="/sobha-lake-garden" component={SobhaLakeGarden}></Route>
+          <Route path="/mahindra-windchimes" component={MahindraWindchimes}></Route>          
+          <Route path="/karle-town" component={KarleTown}></Route>
+          <Route path="/sobha-saptrang" component={SobhaSaptrang}></Route> 
           <Redirect to="/" />
         </Switch>
         <Footer />

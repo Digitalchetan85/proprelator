@@ -9,25 +9,26 @@ import {
   Button,
 } from "react-bootstrap";
 import Image1 from "../../Assets/images/projects/adrash-palm-acres/slider/1.png";
-import SobhaManhattanSlider from "./Slider/SobhaManhattanSlider";
+import SobhaSaptrangSlider from './Slider/SobhaSaptrangSlider';
 
 
-export default function SobhaManhattan() {
+export default function SobhaSaptrang() {
   return (
     <div>
-      <SobhaManhattanSlider />
+      <SobhaSaptrangSlider />
       <div id="content" className="pt-2 pb-2 pt-md-5 pb-md-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
-                <h3>About Sobha Town Park Manhattan Towers</h3>
-                <p>Sobha Manhattan Towers is the brand new New York-themed Apartment project launched in Sobha Town Park, Hosur Road, Attibele, Yadavanahalli, Bangalore</p>
-                <p>The massive residential enclave Manhattan Towers inside Sobha Town Park spread out across 32 acres features the very best in Sobha Limited’s luxury high-rise living segment. The project offers spacious New York-themed 3 BHK Apartments with luxurious features.</p>
-                <p>Beautiful landscapes and open spaces all around the high-rise Sobha Manhattan Towers inside Sobha Town Park make it more special & Elite.</p>
-                <p>The builder is guaranteed to bring a quality living experience to the community Yadavanahalli right on Hosur Road, Attibele, South East Bangalore with brilliant New York-style architecture and an equivalent lifestyle in Manhattan Towers.</p>
-                <p>Sobha Manhattan Towers Location has excellent connectivity as a part of Sobha Town Park & it is located at the crux of Hosur Road, Attibele, Sarjapur Road in Yadavanahalli near existing and upcoming communities & facilities.</p>
-                <p>Some of the Amenities at Manhattan Towers include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.</p>
+                <h3>About Sobha Saptrang</h3>
+                <p>Sobha Saptrang is the brand new residential Apartment project launched in Koramangala 1st Block, HSR Layout, Bangalore.</p>
+                <p>The residential enclave Sobha Saptrang features the very best in SOBHA’s luxury living segment. The project offers spacious Apartments with luxurious features.</p>
+                <p>Beautiful landscapes all around Sobha Saptrang make it more special & Elite.</p>
+                <p>The builder is guaranteed to bring a quality living experience to the community of Koramangala 1st Block, HSR Layout, East Bangalore with brilliant architecture and an equivalent lifestyle in Sobha Saptrang.</p>
+                <p>Sobha Saptrang Location has excellent connectivity & it is located in a very prime location at the crux of Koramangala 1st Block, HSR Layout just off Agara Lake and Sarjapur Road. The project is near existing and upcoming communities & facilities.</p>
+                <p>Amenities at Sobha Saptrang include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.</p>
+
 
                 
 
@@ -37,13 +38,13 @@ export default function SobhaManhattan() {
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">Sobha Manhattan Towers Configuration</h2>
+                  <h2 className="pb-2">Sobha Saptrang Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
                       <Card.Body>
                         <Card.Title>Project Location</Card.Title>
-                        <Card.Text>Hosur Road, Attibele, Yadavanahalli</Card.Text>
+                        <Card.Text>Koramangala 1st Block, HSR Layout</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -52,7 +53,7 @@ export default function SobhaManhattan() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Total Land Area</Card.Title>
-                        <Card.Text>7.24 Acres (32 Acrea Total)</Card.Text>
+                        <Card.Text>5 Acres</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -61,7 +62,7 @@ export default function SobhaManhattan() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>No. of Units</Card.Title>
-                        <Card.Text>560 Units</Card.Text>
+                        <Card.Text>384 Units</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -70,7 +71,7 @@ export default function SobhaManhattan() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Towers and Blocks</Card.Title>
-                        <Card.Text>5 Wings, 1B + G + 37,38 Floors</Card.Text>
+                        <Card.Text>6 Towers, 2B+G+12 Floors</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -79,7 +80,7 @@ export default function SobhaManhattan() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Unit Variants</Card.Title>
-                        <Card.Text>3 BHK Luxury</Card.Text>
+                        <Card.Text>3,4 BHK</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -88,7 +89,7 @@ export default function SobhaManhattan() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Possession Time </Card.Title>
-                        <Card.Text>Dec 2026 Onwards</Card.Text>
+                        <Card.Text>Dec 2021 Onwards(2 Towers)</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -109,7 +110,7 @@ export default function SobhaManhattan() {
                   <tbody>
                     <tr>
                       <td>3 BHK</td>
-                      <td>1495</td>
+                      <td>2439</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -118,7 +119,34 @@ export default function SobhaManhattan() {
                     </tr>
                     <tr>
                       <td>3 BHK</td>
-                      <td>1750</td>
+                      <td>2566</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK</td>
+                      <td>2782</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4 BHK</td>
+                      <td>3142</td>
+                      <td>
+                        <Button type="button" className="btn btn-primary">
+                          Download
+                        </Button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4 BHK</td>
+                      <td>3233</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -129,7 +157,7 @@ export default function SobhaManhattan() {
                 </Table>
               </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">Sobha Manhattan Towers Amenities</h2>
+                  <h2 className="pb-2">Sobha Saptrang Amenities</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
@@ -137,16 +165,16 @@ export default function SobhaManhattan() {
                         <li>Clubhouse</li>
                         <li>Swimming Pool</li>
                         <li>Games Room</li>
-                        <li>Kids Play Area</li>
-                        <li>Jogging & Skating Track</li>
+                        <li>Retail Spaces</li>
+                        <li>Jogging Track</li>
                       </ul>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="">
                       <ul>
-                        <li>Sports Courts</li>
-                        <li>Party Area</li>
+                        <li>Kids Play Area</li>
+                        <li>Activity Area</li>
                         <li>Landscaped Gardens</li>
                       </ul>
                     </div>
@@ -277,7 +305,7 @@ export default function SobhaManhattan() {
                 </Row> */}
               </div>
               <div className="pb-2 pb-md-5">
-                  <h3>Sobha Manhattan Towers Price</h3>
+                  <h3>Sobha Saptrang Price</h3>
                 <Table
                   responsive="sm"
                   className="table-bordered align-middle text-center"
@@ -293,8 +321,8 @@ export default function SobhaManhattan() {
                   <tbody>
                     <tr>
                       <td>3 BHK</td>
-                      <td>1498</td>
-                      <td>Rs. 1.07 Crore Onwards</td>
+                      <td>2439 to 2782</td>
+                      <td>Rs. 3.14 Crore to Rs. 3.58 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -302,9 +330,9 @@ export default function SobhaManhattan() {
                       </td>
                     </tr>
                     <tr>
-                      <td>3 BHK</td>
-                      <td>1755</td>
-                      <td>Rs. 1.32 Crore Onwards</td>
+                      <td>4 BHK</td>
+                      <td>3142 to 3233</td>
+                      <td>Rs. 4.04 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download

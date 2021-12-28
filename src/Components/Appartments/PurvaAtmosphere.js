@@ -358,7 +358,7 @@ export default function PurvaAtmosphere() {
                       <td>3 BHK Lux</td>
                       <td>2182</td>
                       <td>Rs. 150 Lacs</td>
-                      <td>Rs.1.6 9Crore Onwards</td>
+                      <td>Rs.1.69 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download

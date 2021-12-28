@@ -9,41 +9,39 @@ import {
   Button,
 } from "react-bootstrap";
 import Image1 from "../../Assets/images/projects/adrash-palm-acres/slider/1.png";
-import SobhaManhattanSlider from "./Slider/SobhaManhattanSlider";
+import TotalEnvironmentMagicSlider from "./Slider/TotalEnvironmentMagicSlider";
 
 
-export default function SobhaManhattan() {
+export default function TotalEnvironmentMagic() {
   return (
     <div>
-      <SobhaManhattanSlider />
+      <TotalEnvironmentMagicSlider />
       <div id="content" className="pt-2 pb-2 pt-md-5 pb-md-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
-                <h3>About Sobha Town Park Manhattan Towers</h3>
-                <p>Sobha Manhattan Towers is the brand new New York-themed Apartment project launched in Sobha Town Park, Hosur Road, Attibele, Yadavanahalli, Bangalore</p>
-                <p>The massive residential enclave Manhattan Towers inside Sobha Town Park spread out across 32 acres features the very best in Sobha Limited’s luxury high-rise living segment. The project offers spacious New York-themed 3 BHK Apartments with luxurious features.</p>
-                <p>Beautiful landscapes and open spaces all around the high-rise Sobha Manhattan Towers inside Sobha Town Park make it more special & Elite.</p>
-                <p>The builder is guaranteed to bring a quality living experience to the community Yadavanahalli right on Hosur Road, Attibele, South East Bangalore with brilliant New York-style architecture and an equivalent lifestyle in Manhattan Towers.</p>
-                <p>Sobha Manhattan Towers Location has excellent connectivity as a part of Sobha Town Park & it is located at the crux of Hosur Road, Attibele, Sarjapur Road in Yadavanahalli near existing and upcoming communities & facilities.</p>
-                <p>Some of the Amenities at Manhattan Towers include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.</p>
-
+                <h3>About Total Environment The Magic Faraway Tree</h3>
+                <p>Total Environment The Magic Faraway Tree is the new residential luxury apartment project launched in Kanakapura Road, Bangalore..</p>
+                <p>The residential enclave Total Environment The Magic Faraway Tree features the very best in Total Environment’s luxury living segment. The project offers spacious luxury apartments with luxurious features.</p>
+                <p>Beautiful landscapes all around TE The Magic Faraway Tree make it more special & Elite.</p>
+                <p>The builder is guaranteed to bring a quality living experience to the community of Kanakapura Road, South Bangalore with brilliant architecture and an equivalent lifestyle in TE The Magic Faraway Tree.</p>
+                <p>Total Environment The Magic Faraway Tree Location has excellent connectivity & it is located at the crux of Kanakapura Road near existing and upcoming communities & facilities.</p>
+                <p>Amenities at Total Environment The Magic Faraway Tree include a fully equipped clubhouse, landscaped gardens, gymnasium, swimming pool, recreation rooms, outdoor sports courts, children’s play area, party hall, and meticulously planned with utmost importance to state-of-the-art 24/7 securities.  </p>
                 
-
                 <a href="https://www.youtube.com/watch?v=atMp4ufSWw4">
                   <Image src={Image1} alt="YouTube" className="img-fluid" />
                 </a>
               </div>
               <div className="pt-2 pb-2 pt-md-5 pb-md-5 m-1">
                 <Row>
-                  <h2 className="pb-2">Sobha Manhattan Towers Configuration</h2>
+                  <h2 className="pb-2">Total Environment The Magic Faraway Tree Configuration</h2>
                   <Col md={4}>
                     <Card className="text-center m-1">
                       {/* <Image src={Image2}  alt="" className="img-fluid"/> */}
                       <Card.Body>
                         <Card.Title>Project Location</Card.Title>
-                        <Card.Text>Hosur Road, Attibele, Yadavanahalli</Card.Text>
+                        <Card.Text>Kanakapura Road</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -52,7 +50,7 @@ export default function SobhaManhattan() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Total Land Area</Card.Title>
-                        <Card.Text>7.24 Acres (32 Acrea Total)</Card.Text>
+                        <Card.Text>12 Acres</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -61,7 +59,7 @@ export default function SobhaManhattan() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>No. of Units</Card.Title>
-                        <Card.Text>560 Units</Card.Text>
+                        <Card.Text>434 Units</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -70,7 +68,7 @@ export default function SobhaManhattan() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Towers and Blocks</Card.Title>
-                        <Card.Text>5 Wings, 1B + G + 37,38 Floors</Card.Text>
+                        <Card.Text>4 Blocks G+19,31 Floors</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -79,7 +77,7 @@ export default function SobhaManhattan() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Unit Variants</Card.Title>
-                        <Card.Text>3 BHK Luxury</Card.Text>
+                        <Card.Text>3,4 BHK</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -88,7 +86,7 @@ export default function SobhaManhattan() {
                       {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                       <Card.Body>
                         <Card.Title>Possession Time </Card.Title>
-                        <Card.Text>Dec 2026 Onwards</Card.Text>
+                        <Card.Text>Dec 2022 Onwards Phase 1: Ready to Move-In</Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -108,8 +106,8 @@ export default function SobhaManhattan() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>3 BHK</td>
-                      <td>1495</td>
+                      <td>Simplex 3 BHK</td>
+                      <td>2753</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -117,8 +115,8 @@ export default function SobhaManhattan() {
                       </td>
                     </tr>
                     <tr>
-                      <td>3 BHK</td>
-                      <td>1750</td>
+                      <td>3 BHK Duplex</td>
+                      <td>4498</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -129,7 +127,7 @@ export default function SobhaManhattan() {
                 </Table>
               </div><div className="pb-2 pb-md-5" id="amenities">
               <Row>
-                  <h2 className="pb-2">Sobha Manhattan Towers Amenities</h2>
+                  <h2 className="pb-2">Total Environment The Magic Faraway Tree Amenities</h2>
                   <Col md={6}>
                     <div className="">
                       <ul>
@@ -137,17 +135,20 @@ export default function SobhaManhattan() {
                         <li>Clubhouse</li>
                         <li>Swimming Pool</li>
                         <li>Games Room</li>
-                        <li>Kids Play Area</li>
-                        <li>Jogging & Skating Track</li>
+                        <li>Spa & Sauna</li>
+                        <li>Jogging Track</li>
                       </ul>
                     </div>
                   </Col>
                   <Col md={6}>
                     <div className="">
                       <ul>
-                        <li>Sports Courts</li>
-                        <li>Party Area</li>
+                        <li>Outdoor Courts</li>
+                        <li>Outdoor Courts</li>
                         <li>Landscaped Gardens</li>
+                        <li>Kids Play Area</li>
+                        <li>Retail Spaces</li>
+                        <li>Party Area</li>
                       </ul>
                     </div>
                   </Col>
@@ -277,7 +278,7 @@ export default function SobhaManhattan() {
                 </Row> */}
               </div>
               <div className="pb-2 pb-md-5">
-                  <h3>Sobha Manhattan Towers Price</h3>
+                  <h3>TE The Magic Faraway Tree Phase 2 Price</h3>
                 <Table
                   responsive="sm"
                   className="table-bordered align-middle text-center"
@@ -292,9 +293,9 @@ export default function SobhaManhattan() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>3 BHK</td>
-                      <td>1498</td>
-                      <td>Rs. 1.07 Crore Onwards</td>
+                      <td>Simplex 3 BHKK</td>
+                      <td>2753</td>
+                      <td>Rs. 2.49 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -302,9 +303,9 @@ export default function SobhaManhattan() {
                       </td>
                     </tr>
                     <tr>
-                      <td>3 BHK</td>
-                      <td>1755</td>
-                      <td>Rs. 1.32 Crore Onwards</td>
+                      <td>3 BHK Duplex</td>
+                      <td>4498</td>
+                      <td>Rs. 4.35 Crore Onwards</td>
                       <td>
                         <Button type="button" className="btn btn-primary">
                           Download
@@ -318,11 +319,13 @@ export default function SobhaManhattan() {
               <div className="pb-2 pb-md-5">
                   <Row>
                       <Col md={12}>
-                          <h2 className="pb-2">About the Builder – SOBHA Limited</h2>
-                          <p>Founded in the year 1995, Sobha Limited is one of the largest real estate development company in India. It’s a Rs. 22 billion company based out of Bangalore and having projects spread across 13 states and 24 cities.</p>
-                          <p>Sobha Limited is primarily focused on the development of residential and contractual projects. The residential projects range from villas and row houses to plotted development, presidential apartments, luxury, and super luxury apartments. Every Sobha project comes equipped with every major amenity including shopping complex, clubhouse, and swimming pool.</p>
-                          <p>Presently, almost 35 residential projects are under construction aggregating to 27.32 million sq. ft. of space under development. 18.90 million sq. ft. of saleable space in addition to ongoing contractual projects adding up to almost 9.50 million square feet of area.</p>
-                          <p>Sobha has constructed a wide array of structures for prestigious corporate clients most noteworthy being Dell, Institute of Public Enterprises (IPE), Taj Group, Hotel Leela Ventures, Infosys, Bosch, HP, Biocon, Timken and more.</p>
+                          <h2 className="pb-2">About the Builder –  Total Environment</h2>
+                          <p>At Total Environment, we are focused on creating spaces that you can be proud of living and working in. Our goal is to combine our professional expertise with cutting-edge technology and an out-of-the-box approach to make living more comfortable, productive and joyous.</p>
+                          <p>We work together as an integrated team – from concept to completion. This high degree of interaction between our design, construction and business development teams ensures that every little detail gets the close attention it deserves.
+                              <p>We combine our design skills with excellent craftsmanship to deliver homes of the highest quality, always striving to design and build the most beautiful homes in the world.
+
+</p>
+                          </p>
                       </Col>
                   </Row>
               </div>

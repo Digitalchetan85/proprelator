@@ -68,6 +68,60 @@ export default function OurApartmentProjects() {
             description:"Brigade Cornerstone Utopia in Varthur, Bangalore, Bangalore", 
             imgurl:image3,
             link: "/brigade-cornerstone",
+        },      
+        {
+            title:"Sobha Dream Gardens", 
+            description:"Sobha Dream Gardens in Thanisandra, Bangalore", 
+            imgurl:image2,
+            link: "/sobha-dream-gardens",
+        },     
+        {
+            title:"Karle Vario Homes", 
+            description:"Karle Vario Homes at Karle Town Centre, Nagavara, Bangalore", 
+            imgurl:image1,
+            link: "/karle-vario-homes",
+        },   
+        {
+            title:"Total Environment The Magic Faraway Tree", 
+            description:"Total Environment The Magic Faraway Tree in Kanakapura Road, Bangalore", 
+            imgurl:image3,
+            link: "/total-environment-magic",
+        },   
+        {
+            title:"Sobha HRC Pristine", 
+            description:"Sobha HRC Pristine in Jakkur, Bangalore", 
+            imgurl:image1,
+            link: "/sobha-pristine",
+        },
+        {
+            title:"Sobha Dream Acres", 
+            description:"Sobha Dream Acres in Panathur Road, Bangalore", 
+            imgurl:image3,
+            link: "/sobha-dream-acres",
+        },
+        {
+            title:"Sobha Lake Garden", 
+            description:"Sobha Lake Garden in KR Puram, Bangalore", 
+            imgurl:image1,
+            link: "/sobha-lake-garden",
+        },
+        {
+            title:"Mahindra Windchimes", 
+            description:"Mahindra Windchimes in Bannerghatta Road, Bangalore", 
+            imgurl:image3,
+            link: "/mahindra-windchimes",
+        },
+        {
+            title:"Karle Town Center Zenith", 
+            description:"Karle Town Center Zenith in Nagavara, Hebbal, Bangalore", 
+            imgurl:image2,
+            link: "/karle-town",
+        },
+        {
+            title:"Sobha Saptrang", 
+            description:"Sobha Saptrang in Koramangala, Bangalore", 
+            imgurl:image1,
+            link: "/sobha-saptrang",
         },
     ]
 
